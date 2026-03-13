@@ -1,0 +1,11 @@
+Model Information:
+* title:	Trucker Hat
+* source:	https://sketchfab.com/3d-models/trucker-hat-dbb5b0e0418540328423c616049c0f64
+* author:	matheus pedreira (https://sketchfab.com/matheuspedreira)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Trucker Hat" (https://sketchfab.com/3d-models/trucker-hat-dbb5b0e0418540328423c616049c0f64) by matheus pedreira (https://sketchfab.com/matheuspedreira) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

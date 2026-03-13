@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'HandoBold' ;
+    src: url('/fonts/HandoTrial-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'HandoRegular' ;
+    src: url('/fonts/HandoTrial-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'HandoThin' ;
+    src: url('/fonts/HandoTrial-Thin.otf') format('opentype');
+}
+
+.perspective {
+  perspective: 800px;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+canvas {
+  touch-action: none;
+  user-select: none; 
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  animation: marquee 40s linear infinite;
+}
+
+.pause-marquee {
+  animation-play-state: paused;
+}

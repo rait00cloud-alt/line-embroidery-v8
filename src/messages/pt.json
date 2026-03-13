@@ -1,0 +1,897 @@
+{
+  "menu": {
+    "home": "Início",
+    "enterprise": "Serviços",
+    "vintage": "Vintage",
+    "products": "Produtos",
+    "about": "Sobre Nós",
+    "all_products": "Produtos"
+  },
+
+   
+   "reset": {
+    "logo": "Line Embroidery",
+    "forgot_password": "Esqueceu sua senha?",
+    "description": "Insira seu e-mail e enviaremos um link para redefinir sua senha.",
+    "enter_email": "Digite seu e-mail",
+    "send_reset_link": "Enviar link de redefinição",
+    "sending": "Enviando...",
+    "back_to_login": "Voltar ao login",
+    "footer_text": "Ao redefinir sua senha, você concorda com nossos termos de uso e política de privacidade.",
+    "popup_title": "E-mail enviado!",
+    "popup_message": "Enviamos um link de redefinição de senha. Verifique sua caixa de entrada.",
+    "popup_button": "Fechar",
+     "reset_password": "Redefina sua senha",
+    "rate_limit": "Aguarde alguns minutos antes de solicitar outro e-mail de redefinição."
+  
+  },
+
+  "img_consent": {
+    "title": "AUTORIZAÇÃO PARA PRODUÇÃO DE IMAGENS",
+    "fields": {
+      "client_name": "Nome do Cliente",
+      "address": "Endereço",
+      "city_state": "Cidade/Estado",
+      "phone": "Telefone",
+      "email": "E-mail",
+      "date": "Data",
+      "project_reference": "Referência do Projeto"
+    },
+    "body": {
+      "description_1": "Eu, abaixo assinado(a), autorizo a LINE EMBROIDERY a produzir as imagens e os designs conforme solicitado nesta autorização. Declaro ser titular dos direitos sobre as imagens ou possuir as devidas autorizações para utilizar os materiais fornecidos. Ao assinar este documento, concordo com os seguintes termos:",
+      "description_2": "1. Direitos Autorais: Declaro possuir todos os direitos necessários sobre as imagens e que não infringo os direitos autorais de terceiros.",
+      "description_3": "2. Uso das Imagens: Autorizo a LINE EMBROIDERY a utilizar as imagens fornecidas para fins de produção de bordados e qualquer publicidade relacionada ao projeto.",
+      "description_4": "3. Responsabilidade: Concordo em isentar a LINE EMBROIDERY de quaisquer reclamações, danos ou custos associados ao uso das imagens e designs por mim fornecidos.",
+      "description_5": "4. Assinatura: Estou ciente de que esta autorização constitui um contrato vinculativo."
+    },
+    "signature": {
+      "client_signature": "Assinatura do Cliente",
+      "date": "Data"
+    },
+    "accept_checkbox": "Autorizo a LINE EMBROIDERY a utilizar minhas imagens conforme descrito acima.",
+    "submit_button": "Continuar"
+  },
+
+  "design": {
+    "text": "Texto",
+    "upload": "Enviar",
+    "assets": "Recursos"
+  },
+
+  "currency": {
+    "select": "Selecione a Moeda"
+  },
+
+  "alert": {
+    "continue": "Continuar",
+    "show": "Não mostrar novamente.",
+    "dst_title": "Por Que Cobramos US$ 45,00 por Cada Arquivo DST",
+    "dst_text_01": "1. Trabalho de Design Especializado: Cada arquivo DST é meticulosamente criado por designers qualificados que garantem que os designs sejam otimizados para bordado, levando em conta fatores como ordem dos pontos, densidade e transições de cor.",
+    "dst_text_02": "2. Pagamento Único: A taxa de US$ 45 é um pagamento único para acesso vitalício ao design específico. Isso significa que você não precisa se preocupar com custos recorrentes para o mesmo design, tornando-o um investimento econômico para seus projetos de bordado.",
+    "dst_text_03": "3. Entrega e Conveniência: Após o pagamento, enviaremos imediatamente o arquivo DST diretamente para o seu e-mail. Essa conveniência permite que você baixe e use o arquivo facilmente na sua máquina de bordar sem atrasos.",
+    "dst_text_04": "4. Resultados de Alta Qualidade: Nossos arquivos DST são elaborados para garantir resultados de bordado de alta qualidade.",
+    "dst_text_05": "Investir em um arquivo bem projetado pode melhorar significativamente o produto final, garantindo satisfação nas suas criações. Ao escolher nossos arquivos DST, você não só obtém acesso a padrões exclusivos e profissionalmente desenhados, mas também garante uma experiência tranquila com qualidade assegurada.",
+
+    "register_title": "Crie sua conta",
+    "register_text_01": "Junte-se à nossa comunidade e desbloqueie benefícios exclusivos.",
+    "register_text_02": "Usuários registrados têm acesso antecipado, ofertas especiais e recompensas.",
+    "register_discount": "Ganhe 10% de desconto na sua primeira compra",
+    "register_cta": "Cadastre-se e ganhe 10% OFF"
+  },
+
+  "see_more": "Ver Mais",
+  "Drag": "Arraste para Girar",
+
+  "home": {
+    "title": "Transforme suas ideias de moda em roupas premium",
+    "subtitle": "Peças de moda sustentáveis e de alta qualidade, prontas para envio mundial.",
+    "product_title": "Blanks de alto nível, feitos para as suas ideias",
+    "product_subtitle": "As peças de alta qualidade da Line Embroidery oferecem a tela perfeita. Dê vida às suas ideias mais ousadas com facilidade."
+  },
+
+  "vintage": {
+    "page_title": "Todos os Produtos Vintage",
+    "page_subtitle": "1 de 1 peça com nossas roupas bordadas premium.",
+    "nav": {
+      "all": "Tudo",
+      "hats": "Bonés",
+      "line_embroidery": "Line Embroidery",
+      "blanks": "Blanks"
+    }
+  },
+
+  "CheckoutPage": {
+    "checkout_title": "Finalizar Compra",
+    "order_summary": "Resumo do Pedido",
+    "quantity_price": "{quantity} x {price}",
+    "shipping": "Frete",
+    "calculated_next_step": "Calculado na próxima etapa",
+    "total": "Total",
+    "pay_with_card": "Pagar com cartão",
+    "redirecting": "Redirecionando...",
+    "shipping_not_selected": "Por favor, selecione uma opção de frete",
+    "checkout_failed": "Falha ao iniciar o checkout. Por favor, tente novamente.",
+    "discount": "Desconto",
+    "products_subtotal": "Subtotal"
+  },
+
+  "AccountPage": {
+    "Sidebar": {
+      "my_account": "Minha Conta",
+      "profile": "Perfil",
+      "addresses": "Meus Endereços",
+      "coupons": "Meus Cupons",
+      "designs": "Meus Designs",
+      "purchases": "Minhas Compras",
+      "logout": "Sair"
+    },
+    "ProfileCard": {
+      "profile": "Perfil",
+      "name": "Nome",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "name_placeholder": "Digite seu nome",
+      "email_placeholder": "Digite seu e-mail",
+      "phone_placeholder": "Digite seu número de telefone",
+      "save": "Salvar",
+      "cancel": "Cancelar",
+      "edit_profile": "Editar Perfil"
+    },
+    "DesignCard": {
+      "my_designs": "Meus Designs",
+      "no_designs": "Nenhum design criado ainda."
+    },
+    "PurchaseCard": {
+      "my_purchases": "Minhas Compras",
+      "no_purchases": "Nenhuma compra ainda.",
+      "product": "Produto",
+      "amount": "Valor"
+    },
+    "CouponCard": {
+      "my_coupons": "Meus Cupons",
+      "no_coupons": "Nenhum cupom disponível.",
+      "off": "de desconto",
+      "used": "Usado",
+      "active": "Ativo"
+    }
+  },
+
+  "CartPage": {
+    "cart_title": "Carrinho ({count})",
+    "cart_empty": "Seu carrinho está vazio",
+    "loading": "Carregando...",
+    "clear_cart": "Limpar Carrinho",
+    "fulfillment_usa": "Fulfillment dos EUA",
+    "custom_design": "Design Personalizado",
+    "color": "Cor",
+    "size": "Tamanho",
+    "base_price": "Preço base",
+    "customization_summary": "Personalização: {count} design{count, plural, one {} other {s}} (+ arquivo DST)",
+    "remove": "Remover",
+    "decrease_quantity": "Diminuir quantidade",
+    "increase_quantity": "Aumentar quantidade",
+    "order_summary": "Resumo do pedido",
+    "product_summary": "Produto ({count} itens)",
+    "customization": "Personalização",
+    "shipping": "Frete",
+    "shipping_note": "Calculado no checkout",
+    "total": "Total",
+    "checkout": "Finalizar Compra"
+  },
+
+  "login": {
+    "welcome_back": "Bem-vindo(a) de volta!",
+    "no_account": "Não tem uma conta?",
+    "sign_up": "Cadastre-se",
+    "sign_in_google": "Entrar com Google",
+    "or": "ou",
+    "enter_email": "Digite seu e-mail",
+    "enter_password": "Digite sua senha",
+    "signing_in": "Entrando...",
+    "sign_in": "Entrar",
+    "forgot_password": "Esqueceu a senha?",
+    "terms_text": "Ao entrar, você concorda com nossos",
+    "terms_of_service": "Termos de Serviço",
+    "and": "e",
+    "privacy_policy": "Política de Privacidade"
+  },
+
+  "buy_now": "Adicionar ao Carrinho",
+  "language": {
+    "select": "Selecione o Idioma"
+  },
+
+  "products": {
+    "nav": {
+      "all": "Tudo",
+      "hats": "Bonés",
+      "custom": "Bonés Personalizados",
+      "vintage": "Vintage",
+      "services": "Serviços",
+      "about": "Sobre Nós",
+      "base": "Boné de Baseball",
+      "panel": "5 Painéis",
+      "snap": "Snapback",
+      "trucker": "Trucker",
+      "hoodies": "Moletons",
+      "shirts": "Camisetas"
+    },
+    "custom": "Bonés Personalizados",
+    "page_title": "Produtos",
+    "hat_title": "Bonés",
+    "page_hats": "Personalize seu boné com nossas roupas bordadas premium.",
+    "page_shirts": "Personalize suas camisetas com nossas roupas bordadas premium.",
+    "page_hoodies": "Personalize seu moletom com nossas roupas bordadas premium.",
+    "no_products": "Nenhum Produto Disponível",
+    "page_subtitle": "Personalize seu estilo com nossas roupas bordadas premium.",
+    "all": "Produtos",
+    "title": "Produtos",
+    "hats": "Bonés",
+    "filters": {
+      "type": "Tipo",
+      "size": "Tamanho",
+      "color": "Cor",
+      "price": "Preço",
+      "sort_by": "Ordenar por",
+      "items": "itens",
+      "filters": "Filtros",
+      "clear_all": "Limpar tudo",
+      "options": {
+        "Trucker_Hat": "Boné Trucker",
+        "Snapback": "Snapback",
+        "Dad_Hat": "Boné Papai",
+        "5Panel": "5 Painéis",
+        "Line_Emboidery_Cap": "Boné Line Embroidery",
+        "Blank_Shirt": "Camiseta Lisa",
+        "Blank_Hoodie": "Moletom Lisa",
+        "One_Size": "Tamanho Único",
+        "ROYAL": "ROYAL",
+        "PURPLE": "ROXO",
+        "White": "BRANCO",
+        "Black": "PRETO",
+        "BLACK": "PRETO",
+        "NAVY": "AZUL-MARINHO",
+        "LAVENDER": "LAVANDA",
+        "D_GREY": "CINZA ESCURO",
+        "L_GRAY": "CINZA CLARO",
+        "AQUA": "ÁGUA",
+        "SKY": "CELESTE",
+        "RED": "VERMELHO",
+        "H_PINK": "ROSA-CHOQUE",
+        "L_PINK": "ROSA-CLARO",
+        "KHAKI": "CAQUI",
+        "BROWN": "MARROM",
+        "OLIVE": "VERDE-OLIVA",
+        "WHITE": "BRANCO",
+        "BUR": "CASTANHO",
+        "D_GRE": "CINZA ESCURO",
+        "K_GRE": "CINZA CAQUI",
+        "GOLD": "DOURADO",
+        "N_ORA": "LARANJA-NEON",
+        "N_YEL": "AMARELO-NEON",
+        "N_GRE": "CINZA-NEON",
+        "MINT": "MENTA",
+        "G_CAMO": "CAMUFLADO VERDE",
+        "WINE": "VINHO",
+        "BLK(RED)": "PRETO(VERMELHO)",
+        "PINK": "ROSA",
+        "MNT(RED)": "MENTA(VERMELHO)",
+        "L__GREY": "CINZA CLARO",
+        "HOT_PINK": "ROSA-CHOQUE",
+        "MUSTARD_GOLD": "DOURADO MOSTARDA",
+        "DARK_GREEN": "VERDE ESCURO",
+        "TANGERINE": "TANGERINA",
+        "COFFEE": "CAFÉ",
+        "D__GREY": "CINZA ESCURO",
+        "DARK_GREY": "CINZA ESCURO",
+        "DARK_RED": "VERMELHO ESCURO",
+        "Under_$15": "Menos de R$ 75",
+        "$15_-_$25": "R$ 75 - R$ 125",
+        "$25_-_$35": "R$ 125 - R$ 175",
+        "Over_$35": "Mais de R$ 175"
+      },
+      "sort_options": {
+        "Bestseller": "Mais Vendidos",
+        "Price:_Low_to_High": "Preço: Menor para Maior",
+        "Price:_High_to_Low": "Preço: Maior para Menor",
+        "Newest": "Mais Recentes"
+      }
+    },
+    "products_list": {
+      "Trucker_Hat": {
+        "name": "Boné Trucker",
+        "description": "Boné trucker clássico"
+      },
+      "Snapback": {
+        "name": "Snapback",
+        "description": "Snapback moderno"
+      },
+      "Dad_Hat": {
+        "name": "Boné Papai",
+        "description": "Boné de baseball confortável"
+      },
+      "5Panel": {
+        "name": "5 Painéis",
+        "description": "Boné de cinco painéis"
+      },
+      "Line_Emboidery_Cap": {
+        "name": "Boné Line Embroidery",
+        "description": "Boné de baseball confortável"
+      },
+      "Blank_Shirt": {
+        "name": "Camiseta Lisa",
+        "description": "Camiseta confortável"
+      },
+      "Blank_Hoodie": {
+        "name": "Moletom Lisa",
+        "description": "Moletom confortável"
+      }
+    }
+  },
+
+  "design_now": "Criar Agora",
+  "info": {
+    "title": "Informações",
+    "about": "Sobre Nós",
+    "blog": "Blog",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço"
+  },
+
+  "about": {
+    "title": "Sobre Nós",
+    "description": "A Line Embroidery é uma empresa que cria qualquer tipo de bordado, digitaliza arquivos, oferece design gráfico e muito mais. Transformamos seus sonhos em realidade.",
+    "created": "Criada em Los Angeles, Califórnia."
+  },
+
+  "carousel": {
+    "custom_hats": "Bonés Personalizados",
+    "shirts": "Camisetas",
+    "towels": "Toalhas",
+    "keychains": "Chaveiros",
+    "hero_title": "Personalize centenas de blanks premium",
+    "hero_description_01": "A Line Embroidery oferece outsourcing completo de bordado para marcas de moda, consolidando design, preparação técnica e comunicação visual em um único parceiro.",
+    "hero_description_02": "Cuidamos de tudo: desde criação de arte e digitalização, mockups, seleção de cores e arquivos técnicos até materiais pós-produção, como etiquetas, embalagens e conteúdo promocional.",
+    "hero_description_03": "Também apoiamos marcas novas e consolidadas com marketing estratégico, incluindo criativos, vídeos, anúncios e desenvolvimento de sites ou e-commerce.",
+    "hero_description_04": "Com processos padronizados e foco em escalabilidade, a Line Embroidery permite que sua marca se concentre no crescimento enquanto cuidamos de todo o fluxo de produção de bordado.",
+    "hero_cta": "Cresça minha marca",
+    "feature_1": "Materiais e impressão de alta qualidade",
+    "feature_2": "Produção e envio rápidos",
+    "feature_3": "Sem quantidades mínimas de pedido"
+  },
+
+  "enterprise": {
+    "start": "Comece agora",
+    "start-now": "Comece agora",
+    "title": "Produção rápida, roupas premium, zero burocracia operacional.",
+    "subtitle": "Maximize receitas enquanto entrega roupas premium que seus clientes amam.",
+    "custom_solutions_title": "A maneira inteligente de expandir sua linha de bordado.",
+    "custom_solutions_subtitle": "Produção simplificada, redução de riscos de estoque, aumento de lucros e designs sempre em tendência. Mantenha-se à frente da concorrência sem gastar demais."
+  },
+
+  "form": {
+    "title": "Seu bordado, feito com facilidade",
+    "subtitle": "Gerenciamos a produção e o envio para que sua marca alcance mais clientes com menos estresse.",
+    "get_in_touch": "Entre em contato",
+    "first_name": "Nome",
+    "first_name_placeholder": "Digite seu nome",
+    "last_name": "Sobrenome",
+    "last_name_placeholder": "Digite seu sobrenome",
+    "business_email": "E-mail Corporativo",
+    "business_email_placeholder": "Digite seu e-mail corporativo",
+    "website": "Site",
+    "website_placeholder": "Digite a URL do seu site",
+    "phone": "Telefone",
+    "phone_placeholder": "Digite seu número de telefone",
+    "company": "Empresa",
+    "company_placeholder": "Digite o nome da sua empresa",
+    "submit": "Enviar"
+  },
+
+  "rotate": "Arraste para Girar",
+
+  "support": {
+    "title": "Suporte",
+    "faq": "Perguntas Frequentes",
+    "shipping": "Envio",
+    "refund": "Reembolsos"
+  },
+
+  "contact": {
+    "mail": "Entre em Contato",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+
+  "features": {
+    "mainTitle": "Qualidade e Sustentabilidade em Cada Ponto",
+    "description": "Experimente a arte do bordado com nosso compromisso com qualidade, sustentabilidade e embalagem consciente.",
+    "cta": "Comece agora",
+    "printing": {
+      "title": "Precisão em Cada Linha",
+      "description": "Nosso bordado dá vida aos seus designs com linhas limpas e detalhadas. Focamos em qualidade, sustentabilidade e artesanato em cada peça."
+    },
+    "sustainability": {
+      "title": "Sustentabilidade no Nosso DNA",
+      "description": "Cada peça é bordada sob demanda usando fios ecológicos e técnicas responsáveis, minimizando desperdícios e cuidando do planeta."
+    },
+    "packaging": {
+      "title": "Embalagem Pensada",
+      "description": "Nossos produtos chegam em embalagens cuidadosamente projetadas que protegem cada peça, práticas, elegantes e amigas do meio ambiente."
+    }
+  },
+
+  "cases": {
+    "title": "Criadores trazendo os designs da Line Embroidery à vida",
+    "subtitle": "Explore histórias de criadores e comece sua jornada no bordado hoje",
+    "case1": {
+      "title": "Vitão",
+      "description": "Vitão, cantor brasileiro de pop e R&B, teve um bordado da Line Embroidery destacado no clipe 'Takafaya'."
+    },
+    "case2": {
+      "title": "Alphonzo Rawls",
+      "description": "Estrela de San Diego, skatista profissional, designer e grande humorista através de suas artes @alphonzorawls. Capa da Thrasher Magazine e dono da @savalefoowaer, tem nosso afeto e respeito da @lineembroidery & @black.camel.supply."
+    },
+    "case3": {
+      "title": "Danny Minnick",
+      "description": "Artista multidisciplinar e cineasta nascido em Seattle, colaborou conosco para criar um design exclusivo de bordado, além de seu trabalho em filmes de skate como 'Brotherly Love', 'Genie of the Lamp' e 'Collage'."
+    }
+  },
+
+  "countriesSection": {
+    "title": "Costurando Conexões em Todo o Mundo",
+    "subtitle": "Do nosso ateliê até sua porta, enviamos nossas criações bordadas globalmente, transformando seus designs em realidade onde quer que você esteja."
+  },
+
+  "phrase": "Criado por você, bordado pela Line Embroidery",
+
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Suas dúvidas respondidas. Se precisar de mais ajuda, entre em contato com nossa equipe de suporte.",
+    "helpCenter": "support@lineembroidery.com",
+    "tracking": {
+      "question": "Como rastrear meu pedido?",
+      "answer": "Assim que seu pedido for enviado, você receberá um número de rastreamento por e-mail."
+    },
+    "order": {
+      "question": "Posso alterar meu pedido após finalizá-lo?",
+      "answer": "Processamos pedidos rapidamente. Entre em contato imediatamente se precisar fazer alterações."
+    },
+    "shipping": {
+      "question": "Vocês oferecem frete internacional?",
+      "answer": "Sim, enviamos para todo o mundo com rastreamento incluso."
+    }
+  },
+
+  "from": "A partir de",
+
+  "ProductPage": {
+    "like": "Você também pode gostar",
+    "breadcrumb": {
+      "all": "Tudo",
+      "category": "Bonés"
+    },
+    "labels": {
+      "see_more": "Ver Mais",
+      "internationalFulfillmentDesc": "Enviamos produtos para todo o mundo com entrega rápida e confiável.",
+      "buyingInBulk": "Converse com um gerente de contas",
+      "addToCart": "Adicionar ao Carrinho",
+      "color": "Cores",
+      "bestseller": "MAIS VENDIDO",
+      "size": "Tamanho",
+      "sizeGuide": "Guia de Tamanhos",
+      "unitPrice": "Preço Unitário",
+      "customizationOptions": "Opções de Personalização",
+      "printGuide": "Guia de Impressão",
+      "fulfillment": "Fulfillment",
+      "deliveryTo": "Para onde você está entregando?",
+      "fulfillFrom": "De onde deseja enviar?",
+      "internationalFulfillment": "Fulfillment Internacional",
+      "pricePerItem": "Preço por item",
+      "talkToManager": "Converse com um gerente de contas",
+      "designNow": "Criar Agora",
+      "addBlankToCart": "Adicionar Blank ao Carrinho",
+      "shippingInfo": "Os custos de frete são calculados no checkout",
+      "productDetails": "Detalhes do Produto",
+      "specifications": "Especificações",
+      "material": "Material: Algodão Premium 100%",
+      "adjustableClosure": "Fecho ajustável tipo snapback",
+      "structuredDesign": "Design estruturado de 6 painéis",
+      "priceGuide": "Lista de Preços dos Serviços"
+    },
+    "colors": {
+      "Black": "Preto",
+      "White": "Branco"
+    },
+    "priceBreaks": {
+      "0-1": "1 Peça",
+      "1-20": "1–20 Peças",
+      "21-99": "21–99 Peças",
+      "100≥": "100+ Peças"
+    },
+    "customization": {
+      "embroidery": "Bordado",
+      "embroideryDesc": "Bordado de alta qualidade com fio. Ideal para logotipos e textos com acabamento premium."
+    }
+  },
+
+  "terms": {
+    "title": "Termos e Condições",
+    "intro": "LINE EMBROIDERY | TERMOS E CONDIÇÕES GERAIS",
+    "definitions": {
+      "title": "1. Definições",
+      "content": "Acordo(s): o(s) acordo(s) entre LINE EMBROIDERY e Você, qualquer alteração ou aditivo a ele(s), e os Termos e Condições Gerais aplicáveis aos Acordos.\n\nLINE EMBROIDERY: LINE EMBROIDERY registrada em [Seu País].\n\nLineOS: plataforma online proprietária da LINE EMBROIDERY para desenvolvimento e personalização de Produtos oferecidos no Site da LINE EMBROIDERY.\n\nDesign Funcional: os direitos de propriedade intelectual existentes da LINE EMBROIDERY sobre o design técnico da peça usada na criação do Produto. Inclui quaisquer características e especificações técnicas usadas na criação de tecidos, roupas ou outros produtos, incluindo softwares e tecnologias subjacentes.\n\nTermos e Condições Gerais: estes termos e condições gerais de venda.\n\nPedido(s): o Pedido, incluindo qualquer alteração por escrito, para entrega de Produtos e/ou Serviços fornecidos pela LINE EMBROIDERY.\n\nProduto(s) e Serviço(s): serviços de desenvolvimento, amostras de vestuário, amostras PPS e/ou produções em massa fornecidas, a serem fornecidas ou executadas pela LINE EMBROIDERY.\n\nCotação(ões): a descrição escrita (ou eletrônica) dos Produtos e/ou Serviços a serem fornecidos pela LINE EMBROIDERY.\n\nSite: o site da LINE EMBROIDERY.\n\nVocê(r): pessoa física ou jurídica autorizada, atuando como empresa, registrada no registro comercial, que deseja comprar Produtos ou Serviços da LINE EMBROIDERY."
+    },
+    "general": {
+      "title": "2. Geral",
+      "content": "Estes Termos e Condições Gerais fazem parte integrante de cada Acordo, Cotação ou confirmação de Pedido e aplicam-se a todas as transações entre as Partes.\n\nOutros termos gerais (incluindo os seus) são expressamente excluídos, salvo se aceitos por escrito pela LINE EMBROIDERY.\n\nAlterações devem ser feitas por escrito e assinadas por ambas as partes.\n\nSe qualquer disposição for parcial ou totalmente inválida, as demais permanecem em vigor.\n\nComunicações eletrônicas são consideradas 'por escrito'.\n\nEm caso de conflito, prevalece a seguinte ordem: Acordo > Termos Gerais > Cotação."
+    },
+    "orders_labwearos": {
+      "title": "3. Pedidos e LineOS",
+      "content": "Antes da celebração de um Acordo, Você deve fornecer à LINE EMBROIDERY todas as informações essenciais para Produtos ou Serviços.\n\nTodas as Cotações da LINE EMBROIDERY são sem compromisso, salvo indicação em contrário.\n\nPedidos submetidos por Você constituem compromisso vinculativo.\n\nAs Cotações são válidas por 30 dias, salvo indicação em contrário.\n\nA LINE EMBROIDERY pode contratar terceiros para execução.\n\nA LINE EMBROIDERY reserva-se o direito de recusar designs ou contas a seu critério."
+    },
+    "formation": {
+      "title": "4. Formação do Acordo",
+      "content": "Um Acordo é celebrado quando Você aceita a Cotação e é fornecida confirmação por escrito ou a execução tiver início.\n\nRecursos suficientes devem estar disponíveis para concluir o Pedido.\n\nInformações incorretas ou condições não cumpridas podem levar a LINE EMBROIDERY a cancelar o Pedido."
+    },
+    "prices": {
+      "title": "5. Preços e tarifas",
+      "content": "A LINE EMBROIDERY pode ajustar preços devido a mudanças em salários, materiais, transporte, impostos ou outros fatores.\n\nAtrasos ou custos adicionais causados por Você podem afetar o preço."
+    },
+    "billing": {
+      "title": "6. Faturamento e pagamento",
+      "content": "100% dos pedidos de desenvolvimento, amostras e produção em massa devem ser pagos no momento do pedido.\n\nOs preços excluem IVA ou outros impostos, salvo indicação em contrário.\n\nOs pagamentos devem ser feitos integralmente; atraso gera juros de 8%.\n\nA LINE EMBROIDERY pode faturar execuções parciais."
+    },
+    "delivery": {
+      "title": "7. Entrega, transporte e risco",
+      "content": "A entrega é Ex Works ('EXW'), salvo acordo em contrário.\n\nOs Produtos ficam por sua conta e risco a partir do momento em que forem disponibilizados para entrega.\n\nA LINE EMBROIDERY cumpre suas obrigações de entrega assim que Você tiver a oportunidade de recebê-los."
+    },
+    "taking_delivery": {
+      "title": "8. Recebimento",
+      "content": "Você deve cooperar com a entrega e receber os Produtos.\n\nCustos decorrentes de recusa serão repassados a Você.\n\nA recusa de entrega é considerada no dia em que os Produtos não puderem ser entregues."
+    },
+    "delivery_times": {
+      "title": "9. Prazos e condições de entrega",
+      "content": "Os prazos começam no primeiro dia útil após a celebração do Acordo.\n\nOs prazos são aproximados e prorrogados em caso de força maior ou atrasos causados por Você.\n\nEntregas parciais dentro de limites aceitáveis não configuram descumprimento."
+    },
+    "retention": {
+      "title": "10. Retenção de título e outras garantias",
+      "content": "Os Produtos permanecem propriedade da LINE EMBROIDERY até o pagamento integral.\n\nA revenda é permitida, mas não podem ser criadas garantias sobre eles.\n\nA LINE EMBROIDERY pode retomar os Produtos se obrigações não forem cumpridas.\n\nVocê poderá ser solicitado a fornecer garantias adicionais."
+    },
+    "no_warranty": {
+      "title": "11. Sem garantia",
+      "content": "O LineOS é fornecido 'como está', sem garantias.\n\nPequenas discrepâncias entre produtos digitais e físicos não configuram motivo para reclamação.\n\nA LINE EMBROIDERY não é responsável pelo uso inadequado ou alterações sem consentimento."
+    },
+    "inspection_claims": {
+      "title": "12. Inspeção e reclamações",
+      "content": "Os Produtos devem ser inspecionados imediatamente após a entrega.\n\nItens faltantes ou danificados devem ser relatados em até 3 dias corridos; caso contrário, em até 4 semanas após a descoberta.\n\nReclamações não suspendem obrigações de pagamento.\n\nA LINE EMBROIDERY resolve reclamações a seu critério."
+    },
+    "liability": {
+      "title": "13. Responsabilidade / indenização",
+      "content": "A responsabilidade da LINE EMBROIDERY limita-se aos Artigos 11, 12 e 19.\n\nNão há responsabilidade por danos indiretos ou consequenciais.\n\nVocê deve indenizar a LINE EMBROIDERY contra reclamações de terceiros relativas a Produtos ou Serviços.\n\nA responsabilidade máxima é limitada ao valor da fatura ou EUR 3.000 por evento."
+    },
+    "force_majeure": {
+      "title": "14. Força maior",
+      "content": "A LINE EMBROIDERY pode suspender ou rescindir Acordos em casos de força maior sem responsabilidade.\n\nForça maior inclui pandemias, incêndios, greves, guerra, falhas de fornecedores e outras circunstâncias fora de controle razoável.\n\nSe durar mais de 3 meses, Você pode rescindir partes não executáveis."
+    },
+    "execution_third": {
+      "title": "15. Execução por terceiros",
+      "content": "A LINE EMBROIDERY pode contratar terceiros para execução do Acordo."
+    },
+    "authorizations": {
+      "title": "16. Autorizações",
+      "content": "Você deve obter todas as licenças, autorizações, certificados e registros necessários para comprar, revender ou usar Produtos.\n\nVocê cumpre regulamentações nacionais e europeias."
+    },
+    "ip_rights": {
+      "title": "17. Direitos de Propriedade Intelectual",
+      "content": "A LINE EMBROIDERY mantém todos os Direitos de PI sobre Designs Funcionais.\n\nVocê mantém os Direitos de PI sobre seus designs, exceto Designs Funcionais.\n\nVocê concede à LINE EMBROIDERY direitos de uso conforme necessário para execução do Pedido.\n\nVocê indeniza a LINE EMBROIDERY contra reclamações de PI."
+    },
+    "remedies": {
+      "title": "18. Recursos",
+      "content": "A LINE EMBROIDERY pode rescindir ou suspender Acordos se Você entrar em falência, descumprir obrigações ou bens forem penhorados.\n\nProdutos podem ser retomados sem restituição.\n\nO preço total pode ser devido, deduzidas economias diretas."
+    },
+    "law_court": {
+      "title": "19. Lei aplicável e foro competente",
+      "content": "Todos os Acordos regem-se pela lei suíça.\n\nDisputas serão submetidas ao foro competente onde a LINE EMBROIDERY estiver registrada."
+    },
+    "amendments": {
+      "title": "20. Alterações",
+      "content": "A LINE EMBROIDERY reserva-se o direito de alterar Acordos ou Termos.\n\nSalvo objeção por escrito em até 14 dias úteis, as alterações são consideradas aceitas."
+    }
+  },
+
+  "signUp": {
+    "success_title": "Conta criada com sucesso!",
+  "success_message": "Verifique seu e-mail para confirmar antes de fazer login.",
+  "success_continue": "Continuar para login",
+    "create_account": "Crie sua conta",
+    "already_have_account": "Já tem uma conta?",
+    "sign_in": "Entrar",
+    "enter_email": "Digite seu e-mail",
+    "enter_password": "Crie uma senha",
+    "sign_up": "Cadastrar",
+    "sign_up_google": "Cadastrar com Google",
+    "creating_account": "Criando conta...",
+    "or": "ou",
+    "get_special_coupons": "Ganhe Cupons Especiais!",
+    "register_now_cta": "Cadastre-se agora e desbloqueie descontos exclusivos na sua primeira compra.",
+    "terms_text": "Ao se cadastrar, você concorda com nossos",
+    "terms_of_service": "Termos de Serviço",
+    "privacy_policy": "Política de Privacidade",
+    "and": "e",
+    "benefits": {
+      "welcomeGift": "Presente de boas-vindas no cadastro",
+      "discount": "10% de desconto na primeira compra",
+      "freeShipping": "Frete grátis acima de R$ 250",
+      "earlyAccess": "Acesso antecipado a promoções",
+      "secure": "Checkout seguro e privado",
+      "support": "Suporte 24/7"
+    },
+    "register_for_special_discounts": "Cadastre-se hoje para ofertas exclusivas!"
+  },
+
+  "Support": {
+    "needMoreSupport": "Precisa de mais Suporte?",
+    "supportDescription": "Converse diretamente com nossos gerentes de produção e engenheiros têxteis para orientação sobre tecidos, caimento, personalização, quantidades mínimas (MOQs) e prazos.",
+    "bookCall": "Agende uma Chamada Rápida",
+    "checkFaqs": "Consulte nossas Perguntas Frequentes",
+    "faqDescription": "Navegue pelas FAQs para encontrar respostas sobre manufatura de roupas, prazos, tecidos e opções de personalização.",
+    "checkFaqButton": "Veja as Perguntas Frequentes"
+  },
+
+  "DesignPage": {
+    "stretch_controls":"Esticar recurso",
+    "upload_image_button": "Enviar Imagem",
+    "supported_formats": "JPG, PNG suportados",
+    "texture_controls": "Textura",
+    "solid_color": "Cor Sólida",
+    "Position": "Posicione com a Ferramenta de Pan",
+    "decal": "Adicionar Recurso na Ferramenta de Design",
+    "layers": "Camadas",
+    "no_layers": "Nenhuma camada adicionada ainda",
+    "views": "Visualizações",
+    "decals": "Decalques serão colocados na visualização selecionada",
+    "color_controls": "Cores",
+    "hue": "Matiz",
+    "saturation": "Saturação",
+    "lightness": "Luminosidade",
+    "add_to_design": "Adicionar ao Design",
+    "customCreations": "Confiado por mais de 100 Clientes",
+    "explore": "Explorar",
+    "meet": "Marcas que Confiam no Bordado",
+    "embroideryMeets": "Bordado Encontra Visão",
+    "rotation_controls": "Girar recurso",
+    "design_tools": "Ferramentas de Design",
+    "designed_by": "Criado a Partir da Sua Visão. Bordado com Precisão. Preciso em Cada Fio.",
+    "position_text": "Arraste para posicionar o design",
+    "lock": "Travar Rolagem",
+    "unlock": "Destravar Rolagem",
+    "position_controls": "Ferramenta de Pan",
+    "text": "Texto",
+    "upload": "Enviar",
+    "assets": "Recursos",
+    "adjust": "Ajustar",
+    "add_text": "Adicionar Texto",
+    "enter_text": "Digite seu texto",
+    "rotate": "Girar",
+    "front": "Frente",
+    "left": "Esquerda",
+    "right": "Direita",
+    "back": "Costas",
+    "top": "Topo",
+    "bottom": "Base",
+    "position": "Posição",
+    "rotation": "Rotação",
+    "add_to_cart": "Adicionar ao Carrinho",
+    "upload_too_many_colors": "A imagem enviada possui mais de {max} cores. Por favor, simplifique a imagem para {max} cores ou menos.",
+    "Drag": "Arraste para Girar",
+    "undo": "Desfazer"
+  },
+
+  "showcase": {
+    "kicker": "Seu Design. Nosso Ofício.",
+    "snapback": {
+      "title": "Snapback",
+      "subtitle": "Bonés ajustáveis clássicos"
+    },
+    "panel": {
+      "title": "5 Painéis",
+      "subtitle": "Conforto e ajuste estruturado"
+    },
+    "trucker": {
+      "title": "Trucker",
+      "subtitle": "O icônico boné com costas em mesh"
+    },
+    "hat": {
+      "title": "Boné de Baseball",
+      "subtitle": "Explore toda a nossa coleção"
+    },
+    "custom": {
+      "title": "Bordado Personalizado",
+      "subtitle": "Seu Design. Nosso Ofício."
+    },
+    "vintage": {
+      "title": "Vintage",
+      "subtitle": "1 de 1. Criado pela Line."
+    },
+    "creators": {
+      "title": "Criadores",
+      "subtitle": "Quando visão encontra bordado."
+    },
+    "explore": "Ver Mais",
+    "configure": "Produtos"
+  },
+
+  "privacy": {
+    "title": "Política de Privacidade",
+    "introduction": {
+      "title": "Introdução",
+      "p1": "A Line Embroidery está profundamente comprometida em proteger sua privacidade e garantir a segurança dos seus dados pessoais. Entendemos que sua confiança é essencial e tratamos suas informações com o máximo cuidado.",
+      "p2": "Esta Política de Privacidade (a “Política”) é emitida em nome da Line Embroidery, também referida como “nós”, “nos” ou “nosso”. Ela explica como coletamos, usamos, divulgamos e protegemos suas informações pessoais quando você interage com nosso site, faz pedidos ou utiliza nossos serviços.",
+      "p3": "Estamos em conformidade com o Regulamento Geral sobre a Proteção de Dados (GDPR) e outras leis aplicáveis de proteção de dados."
+    },
+    "scope": {
+      "title": "Quando Esta Política se Aplica?",
+      "p1": "Esta Política aplica-se a todos os dados pessoais coletados por meio de www.lineembroidery.com (o “Site”), nossa plataforma de pedidos personalizados, e-mail, telefone, redes sociais e qualquer outra comunicação entre você e a Line Embroidery.",
+      "p2": "Esta Política não abrange o processamento de dados de funcionários ou contratados no contexto de emprego."
+    },
+    "definitions": {
+      "title": "O Que São Dados Pessoais?",
+      "p1": "Dados pessoais são quaisquer informações que identifiquem você direta ou indiretamente — como nome, e-mail, endereço ou histórico de pedidos. “Processamento” inclui coletar, armazenar, usar, compartilhar ou excluir esses dados."
+    },
+    "collection": {
+      "title": "Como Coletamos Dados Pessoais?",
+      "p1": "Coletamos seus dados por vários canais:",
+      "sources": {
+        "direct": "Diretamente de você (ex.: formulários de pedido, inscrições em newsletters, solicitações de design personalizado, candidaturas a vagas).",
+        "others": "De terceiros (ex.: colaboradores, parceiros de eventos ou indicações).",
+        "public": "De fontes publicamente disponíveis (ex.: LinkedIn, sites de empresas).",
+        "cookies": "Automaticamente por meio de cookies e tecnologias de rastreamento."
+      },
+      "methods": {
+        "title": "Cenários específicos de coleta incluem:",
+        "newsletter": "Inscrever-se em nossa newsletter ou atualizações.",
+        "careers": "Candidatar-se a uma vaga na Line Embroidery.",
+        "events": "Registrar-se para workshops ou eventos da marca.",
+        "custom": "Solicitar um design de bordado personalizado ou orçamento.",
+        "shop": "Comprar produtos em nossa loja online.",
+        "partnerships": "Colaborar conosco como marca ou varejista.",
+        "media": "Participar de ensaios fotográficos, eventos ou conteúdo gerado por usuários."
+      }
+    },
+    "dataCollected": {
+      "title": "Quais Dados Pessoais Coletamos?",
+      "identifiers": {
+        "title": "Identificadores Pessoais",
+        "text": "Nome, e-mail, telefone, endereço de entrega/faturamento, nome da empresa (se aplicável) e dados demográficos."
+      },
+      "payment": {
+        "title": "Dados de Pagamento",
+        "text": "Informações de cartão de crédito ou bancárias processadas com segurança por provedores terceirizados (ex.: Stripe, PayPal). Não armazenamos números completos de cartão."
+      },
+      "account": {
+        "title": "Dados de Conta e Registro",
+        "text": "Nome de usuário, senha (criptografada), histórico de pedidos e preferências, se você criar uma conta."
+      },
+      "professional": {
+        "title": "Informações Profissionais",
+        "text": "Para candidatos a vagas: currículo, portfólio, perfil do LinkedIn e referências de contato."
+      },
+      "network": {
+        "title": "Atividade de Dispositivo e Rede",
+        "text": "Endereço IP, tipo de navegador, páginas visitadas, tempo gasto e dados de interação via cookies."
+      },
+      "communication": {
+        "title": "Suas Comunicações Conosco",
+        "text": "E-mails, mensagens, tickets de suporte, feedback ou interações em redes sociais."
+      },
+      "social": {
+        "title": "Dados de Redes Sociais",
+        "text": "Se você conectar via login social (quando oferecido), podemos acessar informações públicas do seu perfil conforme suas configurações da plataforma."
+      }
+    },
+    "use": {
+      "title": "Como Usamos Suas Informações Pessoais",
+      "list": {
+        "1": "Para cumprir seus pedidos e entregar produtos de bordado personalizados.",
+        "2": "Para comunicar sobre status do pedido, envio e suporte.",
+        "3": "Para operar e melhorar nosso Site e serviços.",
+        "4": "Para responder a suas perguntas e fornecer atendimento ao cliente.",
+        "5": "Para enviar e-mails transacionais (ex.: confirmações, faturas).",
+        "6": "Para compartilhar atualizações sobre novas coleções, eventos ou colaborações (com seu consentimento).",
+        "7": "Para processar pagamentos com segurança por meio de parceiros confiáveis.",
+        "8": "Para personalizar sua experiência em nosso Site.",
+        "9": "Para notificá-lo sobre mudanças em nossos serviços ou políticas.",
+        "10": "Para exibir anúncios relevantes com base em seus interesses (via Meta, Google etc.).",
+        "11": "Para analisar tendências e melhorar a eficácia do marketing.",
+        "12": "Conforme descrito no momento em que você fornecer as informações.",
+        "13": "Para qualquer outro fim com seu consentimento explícito."
+      },
+      "candidates": {
+        "title": "Para Candidatos a Vagas:",
+        "1": "Para avaliar suas qualificações e adequação a funções na Line Embroidery.",
+        "2": "Para cumprir obrigações legais (ex.: verificações de direito ao trabalho).",
+        "3": "Para proteger contra fraudes ou ameaças à segurança.",
+        "4": "Para responder a solicitações legais ou defender nossos direitos.",
+        "5": "Em emergências, para proteger a segurança de nossa equipe ou clientes."
+      }
+    },
+    "legalBasis": {
+      "title": "Base Legal para o Processamento",
+      "consent": "Seu consentimento explícito (ex.: para e-mails de marketing).",
+      "contract": "Necessário para executar um contrato com você (ex.: cumprir um pedido).",
+      "legal": "Para cumprir obrigações legais (ex.: leis fiscais).",
+      "legitimate": "Nossos interesses legítimos (ex.: prevenção de fraudes, melhoria de serviços, marketing direto).",
+      "obligation": "Em alguns casos, não podemos fornecer nossos serviços sem determinados dados. Se for o caso, informaremos você."
+    },
+    "sharing": {
+      "title": "Quem Tem Acesso aos Seus Dados?",
+      "list": {
+        "1": "Nossa equipe interna (apenas conforme necessário para atendê-lo).",
+        "2": "Provedores de serviços confiáveis (ex.: transportadoras, processadores de pagamento, suporte de TI).",
+        "3": "Empresas afiliadas dentro do nosso grupo corporativo.",
+        "4": "Em caso de fusão, aquisição ou venda de ativos, seus dados podem ser transferidos como um ativo comercial."
+      },
+      "consent": "Podemos compartilhar dados com terceiros para marketing deles apenas com sua permissão. Dados agregados ou anonimizados podem ser compartilhados publicamente."
+    },
+    "retention": {
+      "title": "Por Quanto Tempo Mantemos Seus Dados",
+      "text": "Mantemos seus dados pessoais apenas pelo tempo necessário para os fins descritos nesta Política, para cumprir obrigações legais, resolver disputas ou fazer valer acordos. Se o processamento for baseado em consentimento, excluímos os dados quando você retirar o consentimento."
+    },
+    "thirdParties": {
+      "title": "Processadores Terceirizados",
+      "intro": "Trabalhamos com parceiros confiáveis para entregar nossos serviços:",
+      "list": {
+        "payment": "Processadores de pagamento (ex.: Stripe, PayPal).",
+        "shipping": "Transportadoras como DHL, UPS ou correios locais.",
+        "hosting": "Provedores de hospedagem em nuvem e sites (ex.: Vercel, AWS).",
+        "marketing": "Ferramentas de marketing digital (ex.: Meta, Google Ads, Mailchimp).",
+        "recruitment": "Plataformas de emprego (ex.: LinkedIn, Greenhouse).",
+        "fraud": "Serviços de detecção de fraude e verificação.",
+        "services": "Ferramentas de faturamento, impostos e validação de endereço.",
+        "authorities": "Órgãos governamentais ou reguladores quando legalmente exigido.",
+        "advisors": "Profissionais jurídicos, financeiros ou de auditoria.",
+        "legal": "Qualquer parte exigida por lei."
+      },
+      "controls": "Todos os terceiros são obrigados contratualmente a proteger seus dados e usá-los apenas conforme instruído.",
+      "international": "Alguns dados podem ser transferidos para fora do EEE. Garantimos salvaguardas adequadas (ex.: Cláusulas Contratuais Padrão).",
+      "links": "Nosso Site pode conter links para sites de terceiros. Não somos responsáveis por suas práticas de privacidade."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "intro": "Usamos cookies para aprimorar sua experiência:",
+      "types": {
+        "essential": {
+          "title": "Cookies Essenciais",
+          "text": "Necessários para funcionalidades básicas do site (ex.: carrinho de compras, login seguro)."
+        },
+        "functional": {
+          "title": "Cookies Funcionais",
+          "text": "Lembram preferências (ex.: idioma, região) para personalizar sua visita."
+        },
+        "analytics": {
+          "title": "Cookies de Análise",
+          "text": "Nos ajudam a entender o uso do site (via Google Analytics) para melhorar desempenho e conteúdo."
+        }
+      },
+      "thirdParty": "Cookies de terceiros (ex.: Meta ou Google) podem ser usados para publicidade. Consulte as políticas de privacidade deles para detalhes."
+    },
+    "security": {
+      "title": "Como Seus Dados São Protegidos?",
+      "measures": "Implementamos medidas técnicas e organizacionais (criptografia, controles de acesso, servidores seguros) para proteger seus dados contra acesso não autorizado, perda ou mau uso.",
+      "user": "Você é responsável por manter sua senha de conta confidencial. Nunca a compartilhe com ninguém."
+    },
+    "rights": {
+      "title": "Seus Direitos",
+      "exercise": "Você tem o direito de acessar, corrigir, excluir, restringir ou portar seus dados, e de se opor ao processamento. Pode retirar o consentimento a qualquer momento.",
+      "contact": "Para exercer seus direitos, envie um e-mail para privacy@lineembroidery.com.",
+      "response": "Responderemos em até um mês (prorrogável por dois meses para solicitações complexas).",
+      "complaint": "Se acreditar que lidamos mal com seus dados, pode apresentar uma reclamação à autoridade local de proteção de dados."
+    },
+    "changes": {
+      "title": "Alterações Nesta Política",
+      "text": "Podemos atualizar esta Política periodicamente. Alterações significativas serão publicadas em nosso Site e/ou enviadas por e-mail. Última atualização: Novembro de 2024."
+    }
+  }
+}

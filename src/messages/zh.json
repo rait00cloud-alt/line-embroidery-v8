@@ -1,0 +1,812 @@
+{
+  "menu": {
+    "home": "首页",
+    "enterprise": "企业定制",
+    "vintage": "复古系列",
+    "products": "产品",
+    "about": "关于我们",
+    "all_products": "所有产品"
+  },
+
+  
+   
+  "reset": {
+    "logo": "线性刺绣",
+    "forgot_password": "忘记密码？",
+    "description": "请输入您的电子邮件，我们将发送一个链接以重置您的密码。",
+    "enter_email": "输入您的电子邮件",
+    "send_reset_link": "发送重置链接",
+    "sending": "发送中...",
+    "back_to_login": "返回登录",
+    "footer_text": "通过重置密码，即表示您同意我们的服务条款和隐私政策。",
+    "popup_title": "邮件已发送！",
+    "popup_message": "我们已向 发送了密码重置链接。请检查您的收件箱。",
+    "popup_button": "关闭",
+    "rate_limit": "请稍等几分钟后再请求另一个重置邮件。"
+  },
+
+  "design": {
+    "text": "文本",
+    "upload": "上传",
+    "assets": "素材"
+  },
+  "currency": {
+    "select": "选择货币"
+  },
+  "see_more": "查看更多",
+  "Drag": "拖动以旋转",
+  "home": {
+    "title": "将您的时尚创意转化为优质服装",
+    "subtitle": "可持续、高品质的时尚单品，支持全球发货。",
+    "product_title": "顶级底衫，为您的创意而生",
+    "product_subtitle": "Line Embroidery 的高品质服装为您提供完美的画布。轻松将您最大胆的设计变为现实。"
+  },
+  "vintage": {
+    "page_title": "所有复古产品",
+    "page_subtitle": "采用我们优质刺绣工艺的独一无二（1 of 1）单品。",
+    "nav": {
+      "all": "全部",
+      "hats": "帽子",
+      "line_embroidery": "Line Embroidery",
+      "blanks": "基础款"
+    }
+  },
+  "CheckoutPage": {
+    "checkout_title": "结账",
+    "order_summary": "订单摘要",
+    "quantity_price": "{quantity} x {price}",
+    "shipping": "运费",
+    "calculated_next_step": "下一步计算",
+    "total": "总计",
+    "pay_with_card": "银行卡支付",
+    "redirecting": "正在跳转...",
+    "shipping_not_selected": "请选择配送方式",
+    "checkout_failed": "无法开始结账。请重试。"
+  },
+  "AccountPage": {
+    "Sidebar": {
+      "my_account": "我的账户",
+      "profile": "个人资料",
+      "addresses": "我的地址",
+      "coupons": "我的优惠券",
+      "designs": "我的设计",
+      "purchases": "购买记录",
+      "logout": "退出登录"
+    },
+    "ProfileCard": {
+      "profile": "个人资料",
+      "name": "姓名",
+      "email": "电子邮箱",
+      "phone": "电话",
+      "name_placeholder": "输入您的姓名",
+      "email_placeholder": "输入您的电子邮箱",
+      "phone_placeholder": "输入您的电话号码",
+      "save": "保存",
+      "cancel": "取消",
+      "edit_profile": "编辑资料"
+    },
+    "DesignCard": {
+      "my_designs": "我的设计",
+      "no_designs": "暂无设计。"
+    },
+    "PurchaseCard": {
+      "my_purchases": "购买记录",
+      "no_purchases": "暂无购买记录。",
+      "product": "产品",
+      "amount": "金额"
+    },
+    "CouponCard": {
+      "my_coupons": "我的优惠券",
+      "no_coupons": "暂无可用优惠券。",
+      "off": "折",
+      "used": "已使用",
+      "active": "有效"
+    }
+  },
+  "CartPage": {
+    "cart_title": "购物车 ({count})",
+    "cart_empty": "您的购物车是空的",
+    "loading": "加载中...",
+    "clear_cart": "清空购物车",
+    "fulfillment_usa": "美国发货",
+    "custom_design": "定制设计",
+    "color": "颜色",
+    "size": "尺码",
+    "base_price": "基础价格",
+    "customization_summary": "定制服务：{count} 个设计 (+{price}/个)",
+    "remove": "移除",
+    "decrease_quantity": "减少数量",
+    "increase_quantity": "增加数量",
+    "order_summary": "订单摘要",
+    "product_summary": "产品 ({count} 件)",
+    "customization": "定制",
+    "shipping": "运费",
+    "shipping_note": "结账时计算",
+    "total": "总计",
+    "checkout": "去结账"
+  },
+  "login": {
+    "welcome_back": "欢迎回来！",
+    "no_account": "还没有账号？",
+    "sign_up": "注册",
+    "sign_in_google": "通过 Google 登录",
+    "or": "或",
+    "enter_email": "输入您的电子邮箱",
+    "enter_password": "输入您的密码",
+    "signing_in": "登录中...",
+    "sign_in": "登录",
+    "forgot_password": "忘记密码？",
+    "terms_text": "登录即表示您同意我们的",
+    "terms_of_service": "服务条款",
+    "and": "和",
+    "privacy_policy": "隐私政策"
+  },
+  "buy_now": "加入购物车",
+  "language": {
+    "select": "选择语言"
+  },
+  "products": {
+    "nav": {
+      "all": "全部",
+      "hats": "帽子",
+      "custom": "定制帽子",
+      "vintage": "复古",
+      "services": "服务",
+      "about": "关于我们",
+      "base": "棒球帽",
+      "panel": "五片帽",
+      "snap": "调节扣帽 (Snapback)",
+      "trucker": "卡车帽",
+      "hoodies": "连帽衫",
+      "shirts": "T恤"
+    },
+    "custom": "定制帽子",
+    "page_title": "所有产品",
+    "hat_title": "帽子",
+    "page_hats": "用我们的优质刺绣工艺定制您的帽子。",
+    "page_shirts": "用我们的优质刺绣工艺定制您的T恤。",
+    "page_hoodies": "用我们的优质刺绣工艺定制您的连帽衫。",
+    "no_products": "暂无产品",
+    "page_subtitle": "用我们的优质刺绣服饰定制您的风格。",
+    "all": "所有产品",
+    "title": "产品",
+    "hats": "帽子",
+    "filters": {
+      "type": "类型",
+      "size": "尺码",
+      "color": "颜色",
+      "price": "价格",
+      "sort_by": "排序方式",
+      "items": "件商品",
+      "filters": "筛选",
+      "clear_all": "清除全部",
+      "options": {
+        "Trucker_Hat": "卡车帽",
+        "Snapback": "调节扣帽 (Snapback)",
+        "Dad_Hat": "老爹帽 (Dad Hat)",
+        "5Panel": "五片帽 (5 Panel)",
+        "Line_Emboidery_Cap": "Line Embroidery 帽子",
+        "Blank_Shirt": "素色T恤",
+        "Blank_Hoodie": "素色连帽衫",
+        "One_Size": "均码",
+        "ROYAL": "宝蓝",
+        "PURPLE": "紫色",
+        "BLACK": "黑色",
+        "NAVY": "藏青色",
+        "LAVENDER": "淡紫色",
+        "D_GREY": "深灰色",
+        "L_GRAY": "浅灰色",
+        "AQUA": "水绿色",
+        "SKY": "天蓝色",
+        "RED": "红色",
+        "H_PINK": "艳粉色",
+        "L_PINK": "浅粉色",
+        "KHAKI": "卡其色",
+        "BROWN": "棕色",
+        "OLIVE": "橄榄绿",
+        "WHITE": "白色",
+        "BUR": "酒红色",
+        "D_GRE": "深灰",
+        "K_GRE": "中灰",
+        "GOLD": "金色",
+        "N_ORA": "荧光橙",
+        "N_YEL": "荧光黄",
+        "N_GRE": "荧光绿",
+        "MINT": "薄荷绿",
+        "G_CAMO": "绿色迷彩",
+        "WINE": "酒红",
+        "BLK_RED": "黑配红",
+        "PINK": "粉色",
+        "MNT_RED": "薄荷绿配红",
+        "L_GREY": "浅灰",
+        "HOT_PINK": "亮粉色",
+        "MUSTARD_GOLD": "芥末金",
+        "DARK_GREEN": "深绿色",
+        "TANGERINE": "橘红色",
+        "COFFEE": "咖啡色",
+        "DARK_GREY": "深灰色",
+        "DARK_RED": "深红色",
+        "Under15": "$15 以下",
+        "15_25": "$15 - $25",
+        "25_35": "$25 - $35",
+        "Over_35": "$35 以上"
+      },
+      "sort_options": {
+        "Bestseller": "热销",
+        "Price_Low_to_High": "价格：从低到高",
+        "Price_High_to_Low": "价格：从高到低",
+        "Newest": "最新上架"
+      }
+    },
+    "products_list": {
+      "Trucker_Hat": {
+        "name": "卡车帽",
+        "description": "经典卡车帽"
+      },
+      "Snapback": {
+        "name": "调节扣帽",
+        "description": "现代 Snapback 帽子"
+      },
+      "Dad_Hat": {
+        "name": "老爹帽",
+        "description": "舒适棒球帽"
+      },
+      "5Panel": {
+        "name": "五片帽",
+        "description": "五片式结构帽子"
+      },
+      "Line_Emboidery_Cap": {
+        "name": "Line Embroidery 帽子",
+        "description": "舒适棒球帽"
+      },
+      "Blank_Shirt": {
+        "name": "素色T恤",
+        "description": "舒适T恤"
+      },
+      "Blank_Hoodie": {
+        "name": "素色连帽衫",
+        "description": "舒适连帽衫"
+      }
+    }
+  },
+  "design_now": "立即设计",
+  "info": {
+    "title": "信息",
+    "about": "关于我们",
+    "blog": "博客",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "about": {
+    "title": "关于我们",
+    "description": "Line Embroidery 是一家提供各类刺绣、文件数字化、平面设计等服务的公司。我们将您的梦想变为现实。",
+    "created": "创立于加利福尼亚州洛杉矶。"
+  },
+  "carousel": {
+    "custom_hats": "定制帽子",
+    "shirts": "T恤",
+    "towels": "毛巾",
+    "keychains": "钥匙扣",
+    "hero_title": "定制数百种优质底衫",
+    "hero_description": "用高品质的可定制街头服饰打造您的品牌...",
+    "hero_cta": "发展我的品牌",
+    "feature_1": "高品质材料和印花",
+    "feature_2": "快速生产和发货",
+    "feature_3": "无最低起订量 (MOQ)"
+  },
+  "enterprise": {
+    "start": "开始",
+    "start-now": "立即开始",
+    "title": "更智能地发展您的时尚业务。无库存、快速生产、无忧无虑",
+    "subtitle": "在为客户提供他们喜爱的优质服饰的同时，最大化您的收入。",
+    "custom_solutions_title": "发展刺绣产品线的明智之选。",
+    "custom_solutions_subtitle": "简化生产、降低库存风险、增加利润，并保持设计紧跟潮流。无需过度投入即可在竞争中保持领先。"
+  },
+  "form": {
+    "title": "让刺绣变得轻松简单",
+    "subtitle": "我们管理生产和发货，让您的品牌能以更少的压力触达更多客户。",
+    "get_in_touch": "联系我们",
+    "first_name": "名",
+    "first_name_placeholder": "输入您的名字",
+    "last_name": "姓",
+    "last_name_placeholder": "输入您的姓氏",
+    "business_email": "商务邮箱",
+    "business_email_placeholder": "输入您的商务邮箱",
+    "website": "网站",
+    "website_placeholder": "输入您的网站链接",
+    "phone": "电话号码",
+    "phone_placeholder": "输入您的电话号码",
+    "company": "公司",
+    "company_placeholder": "输入您的公司名称",
+    "submit": "提交"
+  },
+  "rotate": "拖动以旋转",
+  "support": {
+    "title": "支持",
+    "faq": "常见问题",
+    "shipping": "配送",
+    "refund": "退款"
+  },
+  "contact": {
+    "mail": "联系我们",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "features": {
+    "mainTitle": "每一针都蕴含品质与可持续性",
+    "description": "体验刺绣艺术，感受我们要对品质、可持续性和精心包装的承诺。",
+    "cta": "立即开始",
+    "printing": {
+      "title": "精准的每一线",
+      "description": "我们的刺绣以干净、细腻的线条让您的设计栩栩如生。我们专注于每一件作品的品质、可持续性和工艺。"
+    },
+    "sustainability": {
+      "title": "以可持续性为核心",
+      "description": "每一件作品都是按需刺绣，使用环保线材和负责任的技术，最大限度地减少浪费，关爱地球。"
+    },
+    "packaging": {
+      "title": "精心包装",
+      "description": "我们的产品采用精心设计的包装，既能保护每一件作品，又实用、优雅且环保。"
+    }
+  },
+  "cases": {
+    "title": "将 Line Embroidery 设计变为现实的创作者",
+    "subtitle": "探索创作者的故事，即刻开启您的刺绣之旅",
+    "case1": {
+      "title": "Vitão",
+      "description": "巴西流行和 R&B 艺术家 Vitão 在他的音乐视频《Takafaya》中展示了线绣作品。"
+    },
+    "case2": {
+      "title": "Alphonzo Rawls",
+      "description": "圣地亚哥明星、职业滑板手、设计师，也是一位通过艺术展现幽默感的喜剧演员 @alphonzorawls。《Thrasher》杂志封面人物，@savalefoowaer 的主理人，深受 @lineembroidery 和 @black.camel.supply 的喜爱与尊重。"
+    },
+    "case3": {
+      "title": "Danny Minnick",
+      "description": "出生于西雅图的多学科艺术家和电影制作人，除了制作《Brotherly Love》、《Genie of the Lamp》和《Collage》等滑板电影外，还与我们要合作创作了独特的线绣设计。"
+    }
+  },
+  "countriesSection": {
+    "title": "针线连接世界",
+    "subtitle": "从我们的工作室到您的家门口，我们自豪地将刺绣作品运往全球，无论您身在何处，都能让您的设计变为现实。"
+  },
+  "phrase": "由您设计，由 Line Embroidery 刺绣",
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "为您答疑解惑。如果您需要更多帮助，请随时联系我们的支持团队。",
+    "helpCenter": "support@lineembroidery.com",
+    "tracking": {
+      "question": "如何追踪我的订单？",
+      "answer": "订单发货后，您将收到一封包含追踪号码的电子邮件。"
+    },
+    "order": {
+      "question": "下单后可以更改订单吗？",
+      "answer": "我们会快速处理订单。如果您需要更改，请立即联系我们。"
+    },
+    "shipping": {
+      "question": "你们提供国际配送吗？",
+      "answer": "是的，我们提供全球配送服务，并包含追踪功能。"
+    }
+  },
+  "from": "起价",
+  "ProductPage": {
+    "like": "您可能也喜欢",
+    "breadcrumb": {
+      "all": "全部",
+      "category": "帽子"
+    },
+    "labels": {
+      "see_more": "查看更多",
+      "internationalFulfillmentDesc": "我们以快速可靠的配送服务将产品运往全球。",
+      "buyingInBulk": "联系客户经理",
+      "addToCart": "加入购物车",
+      "color": "颜色",
+      "bestseller": "热销",
+      "size": "尺码",
+      "sizeGuide": "尺码指南",
+      "unitPrice": "单价",
+      "customizationOptions": "定制选项",
+      "printGuide": "印花指南",
+      "fulfillment": "履约地",
+      "deliveryTo": "送货至哪里？",
+      "fulfillFrom": "从哪里发货？",
+      "internationalFulfillment": "国际履约",
+      "pricePerItem": "单件价格",
+      "talkToManager": "联系客户经理",
+      "designNow": "立即设计",
+      "addBlankToCart": "将底衫加入购物车",
+      "shippingInfo": "运费将在结账时计算",
+      "productDetails": "产品详情",
+      "specifications": "规格",
+      "material": "材质：100% 优质棉",
+      "adjustableClosure": "可调节调节扣",
+      "structuredDesign": "挺括的 6 片式设计"
+    },
+    "colors": {
+      "Black": "黑色",
+      "White": "白色"
+    },
+    "priceBreaks": {
+      "1-5": "1-5 件",
+      "6-29": "6-29 件",
+      "30-99": "30-99 件",
+      "100+": "≥ 100 件"
+    },
+    "customization": {
+      "embroidery": "刺绣",
+      "embroideryDesc": "高品质线绣。非常适合具有高级感的 Logo 和文字。"
+    }
+  },
+  "terms": {
+    "title": "条款与条件",
+    "intro": "LINE EMBROIDERY | 一般条款与条件",
+    "definitions": {
+      "title": "1. 定义",
+      "content": "协议：LINE EMBROIDERY 与您之间的协议、其任何修订或补充，以及适用于协议的一般条款与条件。\n\nLINE EMBROIDERY：在 [您的国家] 注册的 LINE EMBROIDERY。\n\nLineOS：LINE EMBROIDERY 用于开发和定制其网站上提供的产品的专有在线平台。\n\n功能性设计：LINE EMBROIDERY 拥有的用于产品创作的服装技术设计的现有知识产权。这包括用于创作面料、服装或其他产品（包括底层软件和平台技术）的任何（技术）特征和规格。\n\n一般条款与条件：这些一般销售条款与条件。\n\n订单：关于 LINE EMBROIDERY 提供的产品和/或服务的交付订单，包括其任何书面修订。\n\n产品和服务：LINE EMBROIDERY 提供、将提供或执行的开发服务、服装样品、PPS 样品和/或批量服装生产。\n\n报价单：LINE EMBROIDERY 提供的产品和/或服务的书面（或电子）描述。\n\n网站：LINE EMBROIDERY 的网站。\n\n您（您的）：希望从 LINE EMBROIDERY 购买产品或服务的、在商业登记处注册的、作为公司行事的授权自然人或法人实体。"
+    },
+    "general": {
+      "title": "2. 总则",
+      "content": "这些一般条款与条件构成每个协议、报价单或订单确认书的组成部分，并适用于双方之间的所有交易。\n\n除非 LINE EMBROIDERY 书面明确接受，否则明确排除其他一般条款（包括您的条款）。\n\n修订必须是书面的并由双方签署。\n\n如果任何条款部分或完全无效，其余条款仍然有效。\n\n电子通信被视为“书面”形式。\n\n如有不一致，优先级为：协议 > 一般条款 > 报价单。"
+    },
+    "orders_labwearos": {
+      "title": "3. 订单和 LineOS",
+      "content": "在签订协议之前，您必须向 LINE EMBROIDERY 提供产品或服务的所有基本信息。\n\nLINE EMBROIDERY 的所有报价单均无法律约束力，除非另有说明。\n\n您提交的订单构成具有约束力的承诺。\n\n除非另有说明，报价单有效期为 30 天。\n\nLINE EMBROIDERY 可聘请第三方执行。\n\nLINE EMBROIDERY 保留自行决定拒绝设计或账户的权利。"
+    },
+    "formation": {
+      "title": "4. 协议的形成",
+      "content": "当您接受报价单并提供书面确认或已开始履行时，协议即告订立。\n\n必须有足够的资源来完成订单。\n\n不正确的信息或未满足的条件可能导致 LINE EMBROIDERY 取消订单。"
+    },
+    "prices": {
+      "title": "5. 价格和费率",
+      "content": "由于工资、材料、运输、税收或其他因素的变化，LINE EMBROIDERY 可能会调整价格。\n\n由您造成的延误或额外费用可能会影响价格。"
+    },
+    "billing": {
+      "title": "6. 开票和付款",
+      "content": "开发、样品和批量订单必须在下单时支付 100% 的款项。\n\n除非另有说明，价格不含增值税或其他税费。\n\n必须全额付款；逾期付款将产生 8% 的利息。\n\nLINE EMBROIDERY 可能会针对部分履行开具发票。"
+    },
+    "delivery": {
+      "title": "7. 交付、运输和风险",
+      "content": "除非另有约定，交付方式为工厂交货（'EXW'）。\n\n从产品提交交付之时起，产品的费用和风险由您承担。\n\n一旦您有机会接收产品，LINE EMBROIDERY 即已履行交付义务。"
+    },
+    "taking_delivery": {
+      "title": "8. 接收货物",
+      "content": "您必须配合交付并接收产品。\n\n与拒绝接收相关的费用将转嫁给您。\n\n拒绝交付被视为产品无法交付之日。"
+    },
+    "delivery_times": {
+      "title": "9. 交付时间和条款",
+      "content": "交付时间从协议订立后的第一个工作日开始计算。\n\n时间为预估值，如遇不可抗力或您的延误，时间将顺延。\n\n在限度内的交付不足或超量交付不构成违约。"
+    },
+    "retention": {
+      "title": "10. 所有权保留和其他担保",
+      "content": "在全额付款之前，产品仍为 LINE EMBROIDERY 的财产。\n\n允许转售，但不得设立担保权。\n\n如果未履行义务，LINE EMBROIDERY 可能会收回产品。\n\n根据要求，您可能需要提供额外的担保。"
+    },
+    "no_warranty": {
+      "title": "11. 无保证",
+      "content": "LineOS 按“原样”提供，不作任何保证。\n\n数字产品与实物产品之间的细微偏差不作为投诉理由。\n\nLINE EMBROIDERY 对未经同意的不当使用或更改不承担责任。"
+    },
+    "inspection_claims": {
+      "title": "12. 检查和索赔",
+      "content": "产品必须在交付后立即检查。\n\n缺失或损坏的物品必须在 3 个日历日内报告；否则，在发现后 4 周内报告。\n\n投诉不中止付款义务。\n\nLINE EMBROIDERY 自行决定处理投诉。"
+    },
+    "liability": {
+      "title": "13. 责任 / 赔偿",
+      "content": "LINE EMBROIDERY 的责任限于第 11、12 和 19 条。\n\n不对间接或后果性损害承担责任。\n\n对于第三方关于产品或服务的索赔，您必须赔偿 LINE EMBROIDERY。\n\n最大责任限于发票金额或每个事件系列 3,000 欧元。"
+    },
+    "force_majeure": {
+      "title": "14. 不可抗力",
+      "content": "在不可抗力情况下，LINE EMBROIDERY 可能会中止或解除协议而不承担责任。\n\n不可抗力包括流行病、火灾、罢工、战争、供应商故障以及其他超出合理控制的情况。\n\n如果持续超过 3 个月，您可以解除无法执行的部分。"
+    },
+    "execution_third": {
+      "title": "15. 第三方执行",
+      "content": "LINE EMBROIDERY 可聘请第三方执行协议。"
+    },
+    "authorizations": {
+      "title": "16. 授权",
+      "content": "您必须获得购买、转售或使用产品所需的所有必要许可、授权、证书和注册。\n\n您需遵守国家和欧洲法规。"
+    },
+    "ip_rights": {
+      "title": "17. 知识产权",
+      "content": "LINE EMBROIDERY 保留功能性设计的所有知识产权。\n\n除功能性设计外，您保留您设计的知识产权。\n\n您授予 LINE EMBROIDERY 为执行订单所需的知识产权使用权。\n\n您赔偿 LINE EMBROIDERY 免受知识产权索赔。"
+    },
+    "remedies": {
+      "title": "18. 补救措施",
+      "content": "如果您破产、未履行义务或资产被扣押，LINE EMBROIDERY 可能会解除或中止协议。\n\n产品可能会被收回而不退还给您。\n\n扣除直接节省的费用后，可能仍需支付全额款项。"
+    },
+    "law_court": {
+      "title": "19. 适用法律和管辖法院",
+      "content": "所有协议均受瑞士法律管辖。\n\n争议提交给 LINE EMBROIDERY 注册地的管辖法院。"
+    },
+    "amendments": {
+      "title": "20. 修订",
+      "content": "LINE EMBROIDERY 保留修订协议或条款的权利。\n\n除非您在 14 个工作日内书面提出异议，否则更改被视为已接受。"
+    }
+  },
+  "signUp": {
+     "success_title": "账户创建成功！",
+  "success_message": "请检查您的电子邮件以确认，然后再登录。",
+  "success_continue": "继续登录",
+    "create_account": "创建您的账户",
+    "already_have_account": "已有账户？",
+    "sign_in": "登录",
+    "enter_email": "输入您的电子邮箱",
+    "enter_password": "创建密码",
+    "sign_up": "注册",
+    "sign_up_google": "通过 Google 注册",
+    "creating_account": "正在创建账户...",
+    "or": "或",
+    "get_special_coupons": "获取特别优惠券！",
+    "register_now_cta": "立即注册并解锁首单独家折扣。",
+    "terms_text": "注册即表示您同意我们的",
+    "terms_of_service": "服务条款",
+    "privacy_policy": "隐私政策",
+    "and": "和",
+    "benefits": {
+      "welcomeGift": "注册欢迎礼",
+      "discount": "首单 9 折优惠",
+      "freeShipping": "满 $50 免运费",
+      "earlyAccess": "促销活动抢先体验",
+      "secure": "安全私密的结账",
+      "support": "24/7 客户支持"
+    },
+    "register_for_special_discounts": "立即加入获取独家优惠！"
+  },
+  "Support": {
+    "needMoreSupport": "需要更多支持？",
+    "supportDescription": "直接与我们的生产经理和纺织工程师交谈，获取关于面料、版型、定制、最低起订量 (MOQ) 和时间表的指导。",
+    "bookCall": "预约快速通话",
+    "checkFaqs": "查看常见问题",
+    "faqDescription": "浏览我们的常见问题解答，查找有关服装制造、交货时间、面料和定制选项的答案。",
+    "checkFaqButton": "查看 FAQ"
+  },
+  "DesignPage": {
+    "upload_image_button": "上传图片",
+    "supported_formats": "支持 JPG, PNG 格式",
+    "texture_controls": "纹理",
+    "solid_color": "纯色",
+    "Position": "使用平移工具定位",
+    "decal": "在设计工具中添加资源",
+    "layers": "图层",
+    "no_layers": "暂无图层",
+    "views": "视图",
+    "decals": "贴花将放置在选定的视图上",
+    "color_controls": "颜色",
+    "hue": "色相",
+    "saturation": "饱和度",
+    "lightness": "亮度",
+    "add_to_design": "添加到设计",
+    "customCreations": "受 100+ 客户信赖",
+    "explore": "探索",
+    "meet": "信赖 Embroidery 的品牌",
+    "embroideryMeets": "刺绣与愿景的交汇",
+    "rotation_controls": "旋转资源",
+    "design_tools": "设计工具",
+    "designed_by": "源于您的愿景。精于我们的刺绣。精准每一线。",
+    "position_text": "拖动以定位设计",
+    "lock": "锁定滚动",
+    "unlock": "解锁滚动",
+    "position_controls": "平移工具",
+    "text": "文本",
+    "upload": "上传",
+    "assets": "素材",
+    "adjust": "调整",
+    "add_text": "添加文本",
+    "enter_text": "输入您的文本",
+    "rotate": "旋转",
+    "front": "正面",
+    "left": "左侧",
+    "right": "右侧",
+    "back": "背面",
+    "top": "顶部",
+    "bottom": "底部",
+    "position": "位置",
+    "rotation": "旋转",
+    "add_to_cart": "加入购物车",
+    "upload_too_many_colors": "上传的图片颜色超过 {max} 种。请将图片简化为 {max} 种或更少的颜色。",
+    "Drag": "拖动以旋转",
+    "undo": "撤销"
+  },
+  "showcase": {
+    "kicker": "您的设计。我们的工艺。",
+    "snapback": {
+      "title": "调节扣帽",
+      "subtitle": "经典可调节帽子"
+    },
+    "panel": {
+      "title": "五片帽",
+      "subtitle": "挺括舒适的版型"
+    },
+    "trucker": {
+      "title": "卡车帽",
+      "subtitle": "标志性网眼后背帽"
+    },
+    "hat": {
+      "title": "棒球帽",
+      "subtitle": "探索我们的全系列"
+    },
+    "custom": {
+      "title": "定制刺绣",
+      "subtitle": "您的设计。我们的工艺。"
+    },
+    "vintage": {
+      "title": "复古",
+      "subtitle": "孤品。由 Line 设计。"
+    },
+    "creators": {
+      "title": "创作者",
+      "subtitle": "当愿景遇上刺绣。"
+    },
+    "explore": "查看更多",
+    "configure": "所有产品"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "introduction": {
+      "title": "引言",
+      "p1": "Line Embroidery 深切致力于保护您的隐私并确保您的个人数据安全。我们理解您的信任至关重要，我们会极其谨慎地处理您的信息。",
+      "p2": "本隐私政策（“政策”）代表 Line Embroidery（也称为“我们”或“我们的”）发布。它解释了当您与我们的网站互动、下订单或使用我们的服务时，我们如何收集、使用、披露和保护您的个人信息。",
+      "p3": "我们遵守《通用数据保护条例》(GDPR) 和其他适用的数据保护法律。"
+    },
+    "scope": {
+      "title": "本政策何时适用？",
+      "p1": "本政策适用于通过 www.lineembroidery.com（“网站”）、我们的定制订单平台、电子邮件、电话、社交媒体以及您与 Line Embroidery 之间的任何其他通信收集的所有个人数据。",
+      "p2": "本政策不涵盖在就业背景下对员工或承包商数据的处理。"
+    },
+    "definitions": {
+      "title": "什么是个人数据？",
+      "p1": "个人数据是指任何直接或间接识别您身份的信息，例如您的姓名、电子邮件、地址或订单历史记录。“处理”包括收集、存储、使用、共享或删除这些数据。"
+    },
+    "collection": {
+      "title": "我们如何收集个人数据？",
+      "p1": "我们通过多种渠道收集您的数据：",
+      "sources": {
+        "direct": "直接从您那里收集（例如：订单表格、新闻通讯注册、定制设计请求、工作申请）。",
+        "others": "从第三方收集（例如：合作者、活动合作伙伴或推荐人）。",
+        "public": "从公开来源收集（例如：LinkedIn、公司网站）。",
+        "cookies": "通过 Cookie 和跟踪技术自动收集。"
+      },
+      "methods": {
+        "title": "具体的收集场景包括：",
+        "newsletter": "订阅我们的新闻通讯或更新。",
+        "careers": "申请 Line Embroidery 的职位。",
+        "events": "注册参加研讨会或品牌活动。",
+        "custom": "请求定制刺绣设计或报价。",
+        "shop": "通过我们的在线商店购买产品。",
+        "partnerships": "作为品牌或零售商与我们合作。",
+        "media": "参与拍摄、活动或用户生成内容。"
+      }
+    },
+    "dataCollected": {
+      "title": "我们收集哪些个人数据？",
+      "identifiers": {
+        "title": "个人标识符",
+        "text": "姓名、电子邮件、电话号码、送货/账单地址、公司名称（如适用）和人口统计详细信息。"
+      },
+      "payment": {
+        "title": "付款详情",
+        "text": "通过第三方支付提供商（如 Stripe, PayPal）安全处理的信用卡或银行信息。我们不存储完整的卡号。"
+      },
+      "account": {
+        "title": "账户和注册详情",
+        "text": "用户名、密码（已哈希处理）、订单历史记录以及您创建账户时的偏好设置。"
+      },
+      "professional": {
+        "title": "职业信息",
+        "text": "对于求职者：简历、作品集、LinkedIn 个人资料和联系推荐人。"
+      },
+      "network": {
+        "title": "设备和网络活动",
+        "text": "IP 地址、浏览器类型、访问的页面、花费的时间以及通过 Cookie 获得的交互数据。"
+      },
+      "communication": {
+        "title": "您与我们的通信",
+        "text": "电子邮件、消息、支持票据、反馈或社交媒体互动。"
+      },
+      "social": {
+        "title": "社交媒体数据",
+        "text": "如果您通过社交登录（如果提供）进行连接，我们可能会根据您的平台设置访问您的公开个人资料信息。"
+      }
+    },
+    "use": {
+      "title": "我们如何使用您的个人信息",
+      "list": {
+        "1": "履行您的订单并交付定制刺绣产品。",
+        "2": "就您的订单状态、发货和支持进行沟通。",
+        "3": "运营和改进我们的网站和服务。",
+        "4": "回应您的咨询并提供客户服务。",
+        "5": "发送交易邮件（例如：确认函、发票）。",
+        "6": "分享有关新系列、活动或合作的更新（需征得您的同意）。",
+        "7": "通过受信任的合作伙伴安全地处理付款。",
+        "8": "个性化您在我们网站上的体验。",
+        "9": "通知您有关我们的服务或政策的更改。",
+        "10": "根据您的兴趣展示相关广告（通过 Meta、Google 等）。",
+        "11": "分析趋势并提高营销效果。",
+        "12": "按照您提供信息时的描述使用。",
+        "13": "征得您明确同意的任何其他目的。"
+      },
+      "candidates": {
+        "title": "对于求职者：",
+        "1": "评估您的资格以及是否适合 Line Embroidery 的职位。",
+        "2": "遵守法律义务（例如：工作权利检查）。",
+        "3": "防止欺诈或安全威胁。",
+        "4": "回应法律请求或捍卫我们的权利。",
+        "5": "在紧急情况下，保护我们团队或客户的安全。"
+      }
+    },
+    "legalBasis": {
+      "title": "处理的法律依据",
+      "consent": "您的明确同意（例如：用于营销邮件）。",
+      "contract": "与您履行合同所必需（例如：履行订单）。",
+      "legal": "遵守法律义务（例如：税法）。",
+      "legitimate": "我们的合法利益（例如：欺诈预防、服务改进、直接营销）。",
+      "obligation": "在某些情况下，如果没有某些数据，我们无法提供服务。如果是这种情况，我们会通知您。"
+    },
+    "sharing": {
+      "title": "谁有权访问您的数据？",
+      "list": {
+        "1": "我们的内部团队（仅在为您服务需要时）。",
+        "2": "受信任的服务提供商（例如：运输公司、支付处理商、IT 支持）。",
+        "3": "我们企业集团内的关联公司。",
+        "4": "在合并、收购或资产出售中，您的数据可能会作为商业资产转移。"
+      },
+      "consent": "只有在征得您许可的情况下，我们才会出于营销目的与第三方共享数据。汇总或匿名数据可能会公开共享。"
+    },
+    "retention": {
+      "title": "我们保留您的数据多久",
+      "text": "我们仅在实现本政策所述目的、遵守法律义务、解决争议或执行协议所需的时间内保留您的个人数据。如果处理是基于同意，我们在您撤回同意时删除数据。"
+    },
+    "thirdParties": {
+      "title": "第三方处理者",
+      "intro": "我们与受信任的合作伙伴合作提供服务：",
+      "list": {
+        "payment": "支付处理商（例如：Stripe, PayPal）。",
+        "shipping": "承运商，如 DHL、UPS 或当地邮政服务。",
+        "hosting": "云和网站托管提供商（例如：Vercel, AWS）。",
+        "marketing": "数字营销工具（例如：Meta, Google Ads, Mailchimp）。",
+        "recruitment": "招聘平台（例如：LinkedIn, Greenhouse）。",
+        "fraud": "欺诈检测和验证服务。",
+        "services": "开票、税务和地址验证工具。",
+        "authorities": "法律要求的政府或监管机构。",
+        "advisors": "法律、财务或审计专业人士。",
+        "legal": "法律要求的任何一方。"
+      },
+      "controls": "所有第三方均受合同约束，必须保护您的数据并仅按指示使用。",
+      "international": "某些数据可能会转移到欧洲经济区 (EEA) 以外。我们确保采取适当的保障措施（例如：标准合同条款）。",
+      "links": "我们的网站可能链接到第三方网站。我们不对其隐私惯例负责。"
+    },
+    "cookies": {
+      "title": "Cookie",
+      "intro": "我们使用 Cookie 来增强您的体验：",
+      "types": {
+        "essential": {
+          "title": "必要 Cookie",
+          "text": "网站基本功能所需（例如：购物车、安全登录）。"
+        },
+        "functional": {
+          "title": "功能性 Cookie",
+          "text": "记住偏好（例如：语言、地区）以个性化您的访问。"
+        },
+        "analytics": {
+          "title": "分析 Cookie",
+          "text": "帮助我们了解网站使用情况（通过 Google Analytics）以改进性能和内容。"
+        }
+      },
+      "thirdParty": "第三方 Cookie（例如来自 Meta 或 Google）可能用于广告。请查看其隐私政策以获取详细信息。"
+    },
+    "security": {
+      "title": "我的数据如何得到保障？",
+      "measures": "我们实施技术和组织措施（加密、访问控制、安全服务器）以保护您的数据免受未经授权的访问、丢失或滥用。",
+      "user": "您有责任对您的账户密码保密。切勿与任何人分享。"
+    },
+    "rights": {
+      "title": "您的权利",
+      "exercise": "您有权访问、更正、删除、限制或转移您的数据，并有权反对处理。您可以随时撤回同意。",
+      "contact": "要行使您的权利，请发送电子邮件至 privacy@lineembroidery.com。",
+      "response": "我们将在一个月内回复（复杂请求可延长两个月）。",
+      "complaint": "如果您认为我们处理您的数据不当，您可以向当地的数据保护机构投诉。"
+    },
+    "changes": {
+      "title": "本政策的更改",
+      "text": "我们可能会定期更新本政策。重大变更将在我们的网站上发布和/或通过电子邮件发送给您。最后更新：2024 年 11 月。"
+    }
+  }
+}

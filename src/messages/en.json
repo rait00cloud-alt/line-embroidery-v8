@@ -1,0 +1,958 @@
+{
+  "menu": {
+    "home": "Home",
+    "enterprise": "Services",
+    "vintage": "Vintage",
+    "products": "Products",
+    "about": "About Us",
+    "all_products":"Products"
+  },
+
+
+ "generate": {
+  "logo": "Generate your logo with AI",
+"title": "Logo Designer",
+  "initial": "Creating the perfect logo in a single conversation with AI involves a step-by-step approach. Here's a streamlined process:\n\n1. Define Your Vision: Start by providing key details about what you envision for your logo. Include elements like colors, shapes, themes, and any specific imagery you want.\n\n2. Brand Personality: Describe your brand's personality and values. Is it modern and sleek, playful and fun, or perhaps vintage and classic? This helps in setting the right tone for your logo.\n\n3. Examples for Inspiration: Share examples of logos you admire or styles you prefer. This gives context to your preferences.\n\n4. Function and Applications: Specify how you plan to use the logo (e.g., online, print, merchandise). This can influence design choices regarding complexity and adaptability.\n\n5. Feedback and Adjustments: Be prepared to provide feedback on initial concepts generated. Highlight what you like or dislike to refine the design.\n\n6. Finalization: Once you have a design you love, request any final tweaks, such as color adjustments or font changes.\n\nBy articulating your vision clearly and being open to iterations, you can effectively collaborate with AI to create a compelling logo. Ready to start? Let me know what you have in mind!",
+  "generated": "Here's your logo! Let me know if you'd like any tweaks.",
+  "placeholder": "Type your answer…",
+  "send": "Send",
+  "remaining": "generations remaining",
+  "generate": "Generate your logo with AI"
+ },
+  
+  "reset": {
+    "logo": "Line Embroidery",
+    "forgot_password": "Forgot your password?",
+    "description": "Enter your email and we'll send a link to reset your password.",
+    "enter_email": "Enter your email",
+    "send_reset_link": "Send reset link",
+    "sending": "Sending...",
+    "back_to_login": "Back to login",
+    "footer_text": "By resetting your password, you agree to our terms of service and privacy policy.",
+    "popup_title": "Email Sent!",
+    "popup_message": "We have sent a password reset link. Please check your inbox.",
+    "popup_button": "Close",
+    "rate_limit": "Please wait a few minutes before requesting another reset email.",
+    "reset_password": "Reset your password",
+    "confirm_title": "Create a new password",
+  "new_password_placeholder": "New password",
+  "confirm_password_placeholder": "Confirm new password",
+  "reset_button": "Reset password",
+  "saving": "Saving...",
+  
+  "success_title": "Password reset successfully!",
+  "success_message": "You can now log in with your new password.",
+  "success_button": "Go to login",
+  "passwords_mismatch": "Passwords do not match"
+  },
+  
+  "img_consent": {
+    "title": "IMAGE PRODUCTION AUTHORIZATION",
+    "fields": {
+      "client_name": "Client Name",
+      "address": "Address",
+      "city_state": "City/State",
+      "phone": "Phone",
+      "email": "Email",
+      "date": "Date",
+      "project_reference": "Project Reference"
+    },
+    "body": {
+      "description_1":"I, the undersigned, hereby authorize LINE EMBROIDERY to produce the images and designs as requested in this authorization. I acknowledge that I own the rights to the images or have the necessary authorization to use the materials provided. By signing this document, I agree to the following terms:",
+      "description_2":"1. Copyrights: I declare that I possess all necessary rights to the images and that I do not infringe upon the copyrights of third parties.",
+      "description_3":"2. Use of Images: I authorize LINE EMBROIDERY to use the provided images for the purpose of producing embroidery and any related advertising for the project.",
+      "description_4":"3. Responsibility: I agree to hold LINE EMBROIDERY harmless from any claims, damages, or costs associated with the use of the images and designs provided by me.",
+      "description_5":"4. Signature: I am aware that this authorization is a binding contract."
+    },
+    "signature": {
+      "client_signature": "Client Signature",
+      "date": "Date"
+    },
+    "accept_checkbox": "I authorize LINE EMBROIDERY to use my images as described above.",
+    "submit_button": "Continue"
+  },
+
+    "design":{
+      "text":"Text",
+      "upload":"Upload",
+      "assets":"Assets"
+
+    },
+    "currency":{
+      "select":"Select Currency"
+    },
+
+     "alert":{
+    "continue":"Continue",
+    "show":"Don't show this again.",
+    "dst_title":"Why We Charge US$ 45.00 for Each DST File",
+    "dst_text_01":"1. Specialized Design Work: Each DST file is meticulously created by qualified designers who ensure that the designs are optimized for embroidery, taking into account factors such as point order, density, and color transitions.",
+   "dst_text_02": "2. Single Payment: The US$ 45 fee is a one-time payment for lifetime access to the specific design. This means you don't need to worry about recurring costs for the same design, making it an economical investment for your embroidery projects.",
+    "dst_text_03": "3. Delivery and Convenience: After payment, we will promptly send the DST file directly to your email. This convenience allows you to download and use the file easily on your embroidery machine without delays.",
+    "dst_text_04":"4. High-Quality Results: Our DST files are crafted to ensure high-quality embroidery results.",
+    "dst_text_05": "Investing in a well-designed file can significantly improve the final product, ensuring satisfaction in your creations. By choosing our DST files, you're not only gaining access to exclusive and professionally designed embroidery patterns, but also guaranteeing a hassle-free experience with quality assurance.",
+
+    "register_title": "Create your account",
+    "register_text_01": "Join our community and unlock exclusive benefits.",
+    "register_text_02": "Registered users get early access, special offers and rewards.",
+    "register_discount": "Get 10% OFF on your first purchase",
+    "register_cta": "Register & Get 10% OFF"
+  },
+
+    "see_more":"See More",
+    "Drag":"Drag to Rotate",
+
+    "home":{
+      "title":"Turn your fashion ideas into premium clothing",
+      "subtitle":"Sustainable, high-quality fashion pieces and ready to ship worldwide.",
+      "product_title":"Top-tier blanks, designed for your ideas",
+      "product_subtitle":"Line embroidery's high-quality garments give you the perfect canvas. Bring your boldest designs to life with ease."
+
+    },
+    "vintage":{
+          "page_title":"All Vintage Products",
+      "page_subtitle":"1 of 1 pieces with our premium embroidered apparel.",
+      "nav":{
+        "all":"All",
+        "hats":"Hats",
+        "line_embroidery":"Line Embroidery",
+        "blanks":"Blanks"
+      }
+    },
+    "CheckoutPage":{
+        "guest_checkout": "Contact Information",
+  "guest_name": "Full Name",
+  "guest_email": "Email Address",
+  "processing": "Processing...",
+      "loading":"Loading...",
+      "continue_to_payment":
+"Continue to Payment",
+      "pay_now":"Pay Now",
+       "checkout_title": "Checkout",
+  "order_summary": "Order Summary",
+  "quantity_price": "{quantity} x {price}",
+  "shipping": "Shipping",
+  "calculated_next_step": "Calculated at next step",
+  "total": "Total",
+  "pay_with_card": "Pay with card",
+  "redirecting": "Redirecting...",
+  "shipping_not_selected": "Please select a shipping option",
+  "checkout_failed": "Failed to start checkout. Please try again.",
+  "discount": "Discount",
+  "products_subtotal": "Subtotal"
+    },
+
+      "AccountPage": {
+            "Sidebar": {
+      "my_account": "My Account",
+      "profile": "Profile",
+      "addresses": "My Addresses",
+      "coupons": "My Coupons",
+      "designs": "My Designs",
+      "purchases": "My Purchases",
+  "logout": "Logout"
+    },
+    "ProfileCard": {
+      "profile": "Profile",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "name_placeholder": "Enter your name",
+      "email_placeholder": "Enter your email",
+      "phone_placeholder": "Enter your phone number",
+      "save": "Save",
+      "cancel": "Cancel",
+      "edit_profile": "Edit Profile"
+    },
+    "DesignCard": {
+      "my_designs": "My Designs",
+      "no_designs": "No designs created yet."
+    },
+    "PurchaseCard": {
+      "my_purchases": "My Purchases",
+      "no_purchases": "No purchases yet.",
+      "product": "Product",
+      "amount": "Amount",
+      "order": "Order",
+      "products": "Products",
+      "size": "Size",
+      "color": "Color",
+      "qty": "Qty",
+      "custom_design": "Custom Design",
+      "assets": "assets",
+      "shipping_address": "Shipping Address"
+    },
+    "CouponCard": {
+      "my_coupons": "My Coupons",
+      "no_coupons": "No coupons available.",
+      "off": "off",
+      "used": "Used",
+      "active": "Active"
+    }
+  },
+    
+    "CartPage": {
+    "cart_title": "Cart ({count})",
+    "cart_empty": "Your cart is empty",
+    "loading": "Loading...",
+    "clear_cart": "Clear Cart",
+    "fulfillment_usa": "Fulfillment from USA",
+    "custom_design": "Custom Design",
+    "color": "Color",
+    "size": "Size",
+    "base_price": "Base price",
+    "customization_summary": "Customization: {count} design{count, plural, one {} other {s}} (+DST file)",
+    "remove": "Remove",
+    "decrease_quantity": "Decrease quantity",
+    "increase_quantity": "Increase quantity",
+    "order_summary": "Order summary",
+    "product_summary": "Product ({count} items)",
+    "customization": "Customization",
+    "shipping": "Shipping",
+    "shipping_note": "Calculated at checkout",
+    "total": "Total",
+    "checkout": "Checkout"
+  },
+
+  "login": {
+    "welcome_back": "Welcome back!",
+    "no_account": "Don't have an account?",
+    "sign_up": "Sign up",
+    "sign_in_google": "Sign in with Google",
+    "or": "or",
+    "enter_email": "Enter your email",
+    "enter_password": "Enter your password",
+    "signing_in": "Signing in...",
+    "sign_in": "Sign In",
+    "forgot_password": "Forgot password?",
+    "terms_text": "By signing in you agree to our",
+    "terms_of_service": "Terms of Service",
+    "and": "and",
+    "privacy_policy": "Privacy Policy"
+  },
+  "buy_now":"Add To Cart",
+  "language":{
+    "select":"Select Language"
+  },
+ "products" : {
+   "nav":{
+      "all":"All",
+      "hats":"Hats",
+      "custom":"Custom Hats",
+      "vintage":"Vintage",
+      "services":"Services",
+      "about":"About Us",
+
+      "base":"Baseball Cap",
+    "panel":"5 Panel",
+    "snap":"Snapback",
+    "trucker":"Trucker",
+    "hoodies":"Hoodies",
+    "shirts":"T-Shirts"
+
+    },
+    "custom":"Custom Hats",
+    "page_title":"Products",
+    "hat_title":"Hats",
+    "page_hats":"Customize your hat with our premium embroidered apparel.",
+    "page_shirts":"Customize your shirts with our premium embroidered apparel.",
+    "page_hoodies":"Customize your hat with our premium embroidered apparel.",
+    "no_products":"No Products Available",
+    "page_subtitle":"Customize your style with our premium embroidered apparel.",
+
+
+  "all":"Products",
+    "title":"Products",
+    "hats":"Hats",
+    
+   
+  
+  "filters": {
+    "type": "Type",
+    "size": "Size",
+    "color": "Color",
+    "price": "Price",
+    "sort_by": "Sort by",
+    "items": "items",
+    "filters": "Filters",
+    "clear_all": "Clear all",
+
+    "options": {
+      "Trucker_Hat": "Trucker Hat",
+      "Snapback": "Snapback",
+      "Dad_Hat": "Dad Hat",
+      "5Panel": "5 Panel",
+      "Line_Emboidery_Cap": "Line Embroidery Cap",
+      "Blank_Shirt": "Blank Shirt",
+      "Blank_Hoodie": "Blank Hoodie",
+
+      "One_Size": "One Size",
+
+      "ROYAL": "ROYAL",
+      "PURPLE": "PURPLE",
+      "White": "WHITE",
+      "Black": "BLACK",
+      "BLACK": "BLACK",
+      "NAVY": "NAVY",
+      "LAVENDER": "LAVENDER",
+
+      "D_GREY": "D.GREY",
+      "L_GRAY": "L.GRAY",
+      "AQUA": "AQUA",
+      "SKY": "SKY",
+      "RED": "RED",
+      "H_PINK": "H.PINK",
+      "L_PINK": "L.PINK",
+      "KHAKI": "KHAKI",
+      "BROWN": "BROWN",
+      "OLIVE": "OLIVE",
+      "WHITE": "WHITE",
+
+      "BUR": "BUR",
+      "D_GRE": "D.GRE",
+      "K_GRE": "K.GRE",
+      "GOLD": "GOLD",
+      "N_ORA": "N.ORA",
+      "N_YEL": "N.YEL",
+      "N_GRE": "N.GRE",
+      "MINT": "MINT",
+
+      "G_CAMO": "G.CAMO",
+
+      "WINE": "WINE",
+      "BLK(RED)": "BLK(RED)",
+      "PINK": "PINK",
+      "MNT(RED)": "MNT(RED)",
+      "L__GREY": "L. GREY",
+
+      "HOT_PINK": "HOT PINK",
+      "MUSTARD_GOLD": "MUSTARD GOLD",
+      "DARK_GREEN": "DARK GREEN",
+      "TANGERINE": "TANGERINE",
+
+      "COFFEE": "COFFEE",
+      "D__GREY": "DARK GREY",
+      "DARK_GREY": "DARK GREY",
+      "DARK_RED": "DARK RED",
+
+      "Under_$15": "Under $15",
+      "$15_-_$25": "$15 - $25",
+      "$25_-_$35": "$25 - $35",
+      "Over_$35": "Over $35"
+    },
+
+    "sort_options": {
+      "Bestseller": "Bestseller",
+      "Price:_Low_to_High": "Price: Low to High",
+      "Price:_High_to_Low": "Price: High to Low",
+      "Newest": "Newest"
+    }
+  },
+
+
+
+  "products_list": {
+    "Trucker_Hat": {
+      "name": "Trucker Hat",
+      "description": "Classic trucker hat"
+    },
+    "Snapback": {
+      "name": "Snapback",
+      "description": "Modern Snapback"
+    },
+    "Dad_Hat": {
+      "name": "Dad Hat",
+      "description": "Comfortable baseball cap"
+    },
+    "5Panel": {
+      "name": "5 Panel",
+      "description": "Five-panel hat"
+    },
+    "Line_Emboidery_Cap": {
+      "name": "Line Embroidery Cap",
+      "description": "Comfortable baseball cap"
+    },
+    "Blank_Shirt": {
+      "name": "Blank Shirt",
+      "description": "Comfortable Shirt"
+    },
+    "Blank_Hoodie": {
+      "name": "Blank Hoodie",
+      "description": "Comfortable Hoodie"
+    }
+  }
+  },
+  
+  "design_now":"Design Now",
+  "info" : {
+    "title":"Info",
+    "about":"About Us",
+    "blog":"Blog",
+    "privacy":"Privacy Policy",
+    "terms":"Terms of Service"
+  },
+
+  "about": {
+    "title": "About Us",
+    "description": "Line Embroidery is a company that creates any type of embroidery, digitizes files, provides graphic design, and more. We bring your dreams to real life.",
+    "created": "Created in LA, California."
+  },
+
+
+  
+  "carousel": {
+    "custom_hats": "Custom Hats",
+    "shirts": "Shirts",
+    "towels": "Towels",
+    "keychains": "Keychains",
+    "hero_title": "Customize hundreds of premium blanks",
+    "hero_description_01": "Line Embroidery offers full-service embroidery outsourcing for fashion brands, consolidating design, technical preparation, and visual communication in a single partner.",
+    "hero_description_02": "We handle everything from art creation and digitization, mockups, color selection, and technical files, to post-production materials such as labels, packaging, and promotional content.",
+    "hero_description_03": "We also support both new and established brands with strategic marketing, including creatives, videos, ads, and website or e-commerce development.",
+    "hero_description_04": "With standardized processes and a focus on scalability, Line Embroidery allows your brand to concentrate on growth while we take care of the entire embroidery production workflow.",    
+
+
+    "hero_cta": "Grow my brand",
+    "feature_1": "High-quality materials and printing",
+    "feature_2": "Fast production and shipping",
+    "feature_3": "No minimum order quantities"
+  },
+
+  "enterprise":{
+    "start":"Get started",
+    "start-now":"Start now",
+    "title":"Fast production, premium apparel, zero operational hassle.",
+    "subtitle":"Maximize revenue while delivering premium apparel your customers love.",
+    "custom_solutions_title":"The smart way to grow your embroidery line.",
+    "custom_solutions_subtitle":"Simplified production, reduced inventory risks, increased profits, and designs that stay on trend. Stay ahead of the competition without overspending." 
+  },
+
+  "form": {
+    "title": "Your embroidery, made effortless",
+    "subtitle": "We manage the production and shipping so your brand can reach more customers with less stress.",
+    "get_in_touch":"Get In Touch",
+    "first_name": "First Name",
+    "first_name_placeholder": "Enter your first name",
+    "last_name": "Last Name",
+    "last_name_placeholder": "Enter your last name",
+    "business_email": "Business Email",
+    "business_email_placeholder": "Enter your business email",
+    "website": "Website",
+    "website_placeholder": "Enter your website URL",
+    "phone": "Phone Number",
+    "phone_placeholder": "Enter your phone number",
+    "company": "Company",
+    "company_placeholder": "Enter your company name",
+    "submit":"Submit"
+  },
+  "rotate":"Drag to Rotate",
+
+   "support" : {
+    "title":"Support",
+    "faq":"FAQ",
+    "shipping":"Shipping",
+    "refund":"Refunds"
+  },
+  "contact":{
+    "mail":"Get in Touch",
+    "instagram":"Instagram",
+    "tiktok":"TikTok",
+    "youtube":"YouTube"
+  },
+  "features": {
+    "mainTitle":"Quality and Sustainability in Every Stitch",
+    "description":"Experience the art of embroidery with our commitment to quality, sustainability, and thoughtful packaging.",
+    "cta":"Start now",
+     "printing":{
+      "title":"Precision in Every Line",
+      "description":"Our embroidery brings your designs to life with clean, detailed lines. We focus on quality, sustainability, and craftsmanship in every piece."
+    },
+    "sustainability":{
+      "title":"Sustainability at Our Core",
+      "description":"Every piece is embroidered on demand using eco-friendly threads and responsible techniques, minimizing waste and caring for the planet."
+    },
+    "packaging":{
+      "title":"Thoughtful Packaging",
+      "description":"Our products arrive in carefully designed packaging that protects each piece, practical, elegant, and kind to the planet."
+    }
+
+  },
+  "cases":{
+    "title":"Creators bringing line embroidery designs to life",
+    "subtitle":"Explore creator stories and start your embroidery journey today",
+    "case1":{
+      "title":"Vitão",
+      "description":"Vitão, the Brazilian pop and R&B artist, had a line embroidery featured in his music video Takafaya."
+    },
+     "case2":{
+      "title":"Alphonzo Rawls",
+      "description":"San Diego Star, Pro Skater, Designer, and a great comedian through his arts @alphonzorawls Thrasher Magazine Cover, owner of @savalefoowaer has our affection and respect from the @lineembroidery & @black.camel.supply"
+    },
+       "case3":{
+      "title":"Danny Minnick",
+      "description":"Seattle-born multidisciplinary artist and filmmaker, collaborated with us to create a unique line embroidery design, in addition to his work on skateboarding films like Brotherly Love, Genie of the Lamp, and Collage."
+    }
+  },
+  "countriesSection":{
+    "title":"Stitching Connections Worldwide",
+    "subtitle":"From our studio to your doorstep, we proudly ship our embroidered creations across the globe, bringing your designs to life no matter where you are."
+  },
+  "phrase":"Designed by you, stitched by Line Embroidery",
+
+  "faq":{
+    "title":"Frequently Asked Questions",
+    "subtitle":"Your questions, answered. If you need more help, feel free to reach out to our support team.",  
+    "helpCenter":"support@lineembroidery.com",
+    "tracking":{
+      "question":"How do I track my order?",
+      "answer":"Once your order ships, you will receive a tracking number via email."
+    },
+    "order":{
+      "question":"Can I change my order after it's placed?",
+      "answer":"We process orders quickly. Please contact us immediately if you need to make changes."
+    },
+    "shipping":{
+      "question":"Do you offer international shipping?",
+      "answer":"Yes, we ship worldwide with tracking included."
+  }
+  },
+  "from":"From",
+  "ProductPage":{
+  "like":"You may also like",
+  "breadcrumb": {
+    "all": "All",
+    "category": "Hats"
+  },
+  "labels": {
+    "see_more":"See More",
+     "internationalFulfillmentDesc": "We ship products worldwide with fast and reliable delivery.",
+     "buyingInBulk": "Talk to an account manager",
+    "addToCart":"Add to Cart",
+    "color":"Colors",
+    "bestseller": "BESTSELLER",
+    "size": "Size",
+    "sizeGuide": "Size Guide",
+    "unitPrice": "Unit Price",
+    "customizationOptions": "Customization Options",
+    "printGuide": "Print Guide",
+    "fulfillment": "Fulfillment",
+    "deliveryTo": "Where are you delivering to?",
+    "fulfillFrom": "Where do you want to fulfill from?",
+    "internationalFulfillment": "International Fulfillment",
+    "pricePerItem": "Price per item",
+    "talkToManager": "Talk to an account manager",
+    "designNow": "Design Now",
+    "addBlankToCart": "Add Blank to Cart",
+    "shippingInfo": "Shipping costs are calculated at checkout",
+    "productDetails": "Product Details",
+    "specifications": "Specifications",
+    "material": "Material: 100% Premium Cotton",
+    "adjustableClosure": "Adjustable snapback closure",
+    "structuredDesign": "Structured 6-panel design",
+    "priceGuide":"Service Price List"
+  },
+  "colors": {
+    "Black": "Black",
+    "White": "White"
+  },
+  "priceBreaks": {
+    "0-1": "1 Piece",
+    "1-20": "1-20 Piece",
+    "21-99": "21-99 Pieces",
+    "100≥": "100+ Pieces"
+  },
+  "customization": {
+    "embroidery": "Embroidery",
+    "embroideryDesc": "High-quality thread embroidery. Ideal for logos and text with premium feel."
+  }
+},
+
+"SuccessPage": {
+  "processing": "Processing your payment...",
+  "verification_failed": "Payment could not be verified",
+  "back_home": "Back to Home",
+  "success_title": "Thank you for your order!",
+  "email_confirmation": "You will receive an order confirmation email shortly with all your order details and designs.",
+  "continue_shopping": "Continue Shopping"
+},
+
+"terms":{
+  "title": "Terms & Conditions",
+  "intro": "LINE EMBROIDERY | GENERAL TERMS AND CONDITIONS",
+  "definitions": {
+    "title": "1. Definitions",
+    "content": "Agreement(s): the agreement(s) between LINE EMBROIDERY and You, any amendment or supplement thereto, and the General Terms and Conditions applicable to Agreements.\n\nLINE EMBROIDERY: LINE EMBROIDERY registered in [Your Country].\n\nLineOS: online proprietary platform of LINE EMBROIDERY for developing and customizing Products offered on LINE EMBROIDERY’s Website.\n\nFunctional Design: the existing LINE EMBROIDERY owned IP rights in or to the technical garment design used in the creation of the Product. This includes any (technical) features and specifications used in the creation of fabrics, garments, or other products, including underlying software and platform technologies.\n\nGeneral Terms and Conditions: these general terms and conditions of sale.\n\nOrder(s): the Order, including any written amendment thereto, for the delivery of Products and/or Services provided by LINE EMBROIDERY.\n\nProduct(s) and Service(s): development services, garment samples, PPS samples, and/or bulk garment productions supplied, to be supplied, or performed by LINE EMBROIDERY.\n\nQuotation(s): the written (or electronic) description of Products and/or Services to be supplied by LINE EMBROIDERY.\n\nWebsite: the website of LINE EMBROIDERY.\n\nYou(r): an authorized natural person or legal entity acting as a company, registered in the trade register, wishing to purchase Products or Services from LINE EMBROIDERY."
+  },
+  "general": {
+    "title": "2. General",
+    "content": "These General Terms and Conditions form an integral part of each Agreement, Quotation, or Order confirmation and are applicable to all transactions between Parties.\n\nOther general terms (including Yours) are expressly excluded unless explicitly accepted in writing by LINE EMBROIDERY.\n\nAmendments must be written and signed by both parties.\n\nIf any provision is partially or completely invalid, the remaining provisions remain in effect.\n\nElectronic communications are considered 'in writing'.\n\nIn case of inconsistency, precedence is given to Agreement > General Terms > Quotation."
+  },
+  "orders_labwearos": {
+    "title": "3. Orders and LineOS",
+    "content": "Prior to the conclusion of an Agreement, You must provide LINE EMBROIDERY with all essential information for Products or Services.\n\nAll Quotations by LINE EMBROIDERY are without obligation unless otherwise stated.\n\nOrders submitted by You constitute a binding commitment.\n\nQuotations are valid for 30 days unless stated otherwise.\n\nLINE EMBROIDERY may engage third parties for execution.\n\nLINE EMBROIDERY reserves the right to reject designs or accounts at its discretion."
+  },
+  "formation": {
+    "title": "4. Formation of the Agreement",
+    "content": "An Agreement is concluded when You accept the Quotation and written confirmation is provided or performance has commenced.\n\nSufficient resources must be available to complete the Order.\n\nIncorrect information or unmet conditions may lead LINE EMBROIDERY to cancel the Order."
+  },
+  "prices": {
+    "title": "5. Prices and rates",
+    "content": "LINE EMBROIDERY can adjust prices due to changes in wages, materials, transport, taxes, or other factors.\n\nDelays or additional costs caused by You may affect pricing."
+  },
+  "billing": {
+    "title": "6. Billing and payment",
+    "content": "100% of development, sample, and bulk Orders must be paid at Order placement.\n\nPrices exclude VAT or other taxes unless stated.\n\nPayments must be made in full; late payment incurs 8% interest.\n\nLINE EMBROIDERY may invoice partial performances."
+  },
+  "delivery": {
+    "title": "7. Delivery, transport, and risk",
+    "content": "Delivery is Ex Works ('EXW') unless agreed otherwise.\n\nProducts are at Your expense and risk from the moment presented for delivery.\n\nLINE EMBROIDERY has fulfilled delivery obligations once You have the opportunity to take receipt."
+  },
+  "taking_delivery": {
+    "title": "8. Taking Delivery",
+    "content": "You must cooperate with delivery and take Products.\n\nCosts related to refusal will be passed on to You.\n\nDelivery refusal is deemed the day Products cannot be delivered."
+  },
+  "delivery_times": {
+    "title": "9. Delivery times and terms",
+    "content": "Delivery times start the first working day after Agreement conclusion.\n\nTimes are approximate and extended in case of force majeure or Your delays.\n\nUnder or over-delivery within limits is not a breach of Agreement."
+  },
+  "retention": {
+    "title": "10. Retention of title and other securities",
+    "content": "Products remain LINE EMBROIDERY property until full payment.\n\nResale is allowed but no security rights may be established.\n\nLINE EMBROIDERY may repossess Products if obligations are unmet.\n\nYou may need to provide additional securities upon request."
+  },
+  "no_warranty": {
+    "title": "11. No warranty",
+    "content": "LineOS is provided 'as is' without warranty.\n\nMinor deviations between digital and physical products are not grounds for complaint.\n\nLINE EMBROIDERY is not liable for improper use or alterations without consent."
+  },
+  "inspection_claims": {
+    "title": "12. Inspection and claims",
+    "content": "Products must be inspected immediately upon delivery.\n\nMissing or damaged items must be reported within 3 calendar days; otherwise, within 4 weeks upon discovery.\n\nComplaints do not suspend payment obligations.\n\nLINE EMBROIDERY remedies complaints at its discretion."
+  },
+  "liability": {
+    "title": "13. Liability / indemnification",
+    "content": "LINE EMBROIDERY's liability is limited to Articles 11, 12, and 19.\n\nNo liability for indirect or consequential damages.\n\nYou must indemnify LINE EMBROIDERY for claims from third parties regarding Products or Services.\n\nMaximum liability is limited to the invoice value or EUR 3,000 per event series."
+  },
+  "force_majeure": {
+    "title": "14. Force majeure",
+    "content": "LINE EMBROIDERY may suspend or dissolve Agreements in cases of force majeure without liability.\n\nForce majeure includes pandemics, fire, strikes, war, supplier failures, and other circumstances beyond reasonable control.\n\nIf it lasts over 3 months, You may dissolve non-executable portions."
+  },
+  "execution_third": {
+    "title": "15. Execution by third parties",
+    "content": "LINE EMBROIDERY may engage third parties for execution of the Agreement."
+  },
+  "authorizations": {
+    "title": "16. Authorizations",
+    "content": "You must obtain all necessary permits, authorizations, certificates, and registrations to purchase, resell, or use Products.\n\nYou comply with national and European regulations."
+  },
+  "ip_rights": {
+    "title": "17. Intellectual Property Rights",
+    "content": "LINE EMBROIDERY retains all IP Rights of Functional Designs.\n\nYou retain IP Rights of your designs excluding Functional Design.\n\nYou grant LINE EMBROIDERY rights to use IP as needed for Order execution.\n\nYou indemnify LINE EMBROIDERY against IP claims."
+  },
+  "remedies": {
+    "title": "18. Remedies",
+    "content": "LINE EMBROIDERY may dissolve or suspend Agreements if You become bankrupt, fail obligations, or assets are seized.\n\nProducts may be repossessed without returning to You.\n\nFull price may still be owed minus direct savings."
+  },
+  "law_court": {
+    "title": "19. Applicable law and competent court",
+    "content": "All Agreements are governed by Swiss law.\n\nDisputes are submitted to the competent court where LINE EMBROIDERY is registered."
+  },
+  "amendments": {
+    "title": "20. Amendments",
+    "content": "LINE EMBROIDERY reserves the right to amend Agreements or Terms.\n\nUnless You object in writing within 14 working days, changes are deemed accepted."
+  }
+},
+"signUp": {
+  "success_title": "Account created successfully!",
+  "success_message": "Check your email to confirm before logging in.",
+  "success_continue": "Continue to login",
+    "create_account": "Create your account",
+    "already_have_account": "Already have an account?",
+    "sign_in": "Sign in",
+    "enter_email": "Enter your email",
+    "enter_password": "Create a password",
+    "sign_up": "Sign Up",
+    "sign_up_google": "Sign up with Google",
+    "creating_account": "Creating account...",
+    "or": "or",
+    "get_special_coupons": "Get Special Coupons!",
+    "register_now_cta": "Register now and unlock exclusive discounts on your first order.",
+    "terms_text": "By signing up, you agree to our",
+    "terms_of_service": "Terms of Service",
+    "privacy_policy": "Privacy Policy",
+    "and": "and",
+    "benefits": {
+      "welcomeGift": "Welcome gift on sign-up",
+      "discount": "10% off your first order",
+      "freeShipping": "Free shipping over $50",
+      "earlyAccess": "Early access to sales",
+      "secure": "Secure & private checkout",
+      "support": "24/7 customer support"
+    },
+    "register_for_special_discounts":"Join today for exclusive offers!"
+  },
+
+
+  "Support": {
+    "needMoreSupport": "Need more Support?",
+    "supportDescription": "Talk directly with our production managers and textile engineers to get guidance on fabrics, fit, customization, minimum order quantities (MOQs), and timelines.",
+    "bookCall": "Book a Quick Call",
+    "checkFaqs": "Check our FAQs",
+    "faqDescription": "Browse our FAQs to find answers about garment manufacturing, lead times, fabrics, and customization options.",
+    "checkFaqButton": "Check Out the FAQ"
+  },
+  "DesignPage":{
+    "stretch_controls":"Stretch Logo",
+    "upload_image_button":"Upload Image",
+    "supported_formats":"JPG, PNG supported",
+    "texture_controls": "Texture",
+    "solid_color": "Solid Color",
+    "Position":"Position with Pan Tool",
+    "decal":"Add Asset on Design Tool",
+    "layers": "Layers",
+    "no_layers": "No layers added yet",
+    "views":"Views",
+    "decals":"Decals will be placed on selected view",
+    "color_controls": "Colors",
+    "hue": "Hue",
+    "saturation": "Saturation",
+    "lightness": "Lightness",
+    "add_to_design":"Add To Design",
+    "customCreations":"Trusted by 100+ Clients",
+    "explore":"Explore",
+    "meet":"Brands Trusted by Embroidery",
+    "embroideryMeets":"Embroidery Meets Vision",
+    "rotation_controls":"Rotate asset",
+    "design_tools":"Design Tools",
+    "designed_by":"Crafted from Your Vision. Stitched with Precision. Precised in every thread.",
+    "position_text":"Drag to position design",
+    "lock":"Lock Scroll",
+    "unlock":"Unlock Scroll",
+    "position_controls":"Pan Tool",
+  "text": "Text",
+    "upload": "Upload",
+    "assets": "Assets",
+    "adjust": "Adjust",
+    "add_text": "Add Text",
+    "enter_text": "Enter your text",
+    "rotate":"Rotate",
+    "front": "Front",
+    "left": "Left",
+    "right": "Right",
+    "back": "Back",
+    "top": "Top",
+    "bottom": "Bottom",
+    "position": "Position",
+    "rotation": "Rotation",
+    "add_to_cart": "Add to Cart",
+    "upload_too_many_colors": "Uploaded image has more than {max} colors. Please simplify the image to {max} colors or fewer.",
+  "Drag":"Drag to Rotate",
+    "undo":"Undo"
+    },
+
+   "showcase": {
+    "kicker":"Your Design. Our Craft.",
+    "snapback": {
+      "title": "Snapback",
+      "subtitle": "Classic adjustable caps"
+    },
+    "panel": {
+      "title": "5 Panel",
+      "subtitle": "Structured comfort and fit"
+    },
+    "trucker": {
+      "title": "Trucker",
+      "subtitle": "The iconic mesh-back cap"
+    },
+    "hat": {
+      "title": "Baseball Hat",
+      "subtitle": "Explore our full collection"
+    },
+     "custom": {
+      "title":"Custom Embroidery",
+      "subtitle":"Your Design. Our Craft."
+  },
+    "vintage": {
+      "title": "Vintage",
+      "subtitle": "1 of 1. Designed by Line."
+    },
+    "creators": {
+      "title": "Creators",
+      "subtitle": "When vision meets Embroidery."
+    },
+    "explore": "See More",
+    "configure": "Products"
+  },
+
+  
+  "privacy": {
+    "title": "Privacy Policy",
+    "introduction": {
+      "title": "Introduction",
+      "p1": "Line Embroidery is deeply committed to protecting your privacy and ensuring the security of your personal data. We understand that your trust is essential, and we handle your information with the utmost care.",
+      "p2": "This Privacy Policy (the “Policy”) is issued on behalf of Line Embroidery, also referred to as “we”, “us”, or “our”. It explains how we collect, use, disclose, and protect your personal information when you interact with our website, place orders, or engage with our services.",
+      "p3": "We comply with the General Data Protection Regulation (GDPR) and other applicable data protection laws."
+    },
+    "scope": {
+      "title": "When Does This Policy Apply?",
+      "p1": "This Policy applies to all personal data collected through www.lineembroidery.com (the “Website”), our custom order platform, email, phone, social media, and any other communication between you and Line Embroidery.",
+      "p2": "This Policy does not cover the processing of employee or contractor data in the context of employment."
+    },
+    "definitions": {
+      "title": "What Is Personal Data?",
+      "p1": "Personal data is any information that identifies you directly or indirectly—such as your name, email, address, or order history. “Processing” includes collecting, storing, using, sharing, or deleting this data."
+    },
+    "collection": {
+      "title": "How Do We Collect Personal Data?",
+      "p1": "We collect your data through various channels:",
+      "sources": {
+        "direct": "Directly from you (e.g., order forms, newsletter sign-ups, custom design requests, job applications).",
+        "others": "From third parties (e.g., collaborators, event partners, or referrals).",
+        "public": "From publicly available sources (e.g., LinkedIn, company websites).",
+        "cookies": "Automatically via cookies and tracking technologies."
+      },
+      "methods": {
+        "title": "Specific collection scenarios include:",
+        "newsletter": "Subscribing to our newsletter or updates.",
+        "careers": "Applying for a position at Line Embroidery.",
+        "events": "Registering for workshops or brand events.",
+        "custom": "Requesting a custom embroidery design or quote.",
+        "shop": "Purchasing products through our online store.",
+        "partnerships": "Collaborating with us as a brand or retailer.",
+        "media": "Participating in photoshoots, events, or user-generated content."
+      }
+    },
+    "dataCollected": {
+      "title": "What Personal Data Do We Collect?",
+      "identifiers": {
+        "title": "Personal Identifiers",
+        "text": "Name, email, phone number, shipping/billing address, company name (if applicable), and demographic details."
+      },
+      "payment": {
+        "title": "Payment Details",
+        "text": "Credit card or bank information processed securely via third-party payment providers (e.g., Stripe, PayPal). We do not store full card numbers."
+      },
+      "account": {
+        "title": "Account & Registration Details",
+        "text": "Username, password (hashed), order history, and preferences if you create an account."
+      },
+      "professional": {
+        "title": "Professional Information",
+        "text": "For job applicants: resume, portfolio, LinkedIn profile, and contact references."
+      },
+      "network": {
+        "title": "Device & Network Activity",
+        "text": "IP address, browser type, pages visited, time spent, and interaction data via cookies."
+      },
+      "communication": {
+        "title": "Your Communications With Us",
+        "text": "Emails, messages, support tickets, feedback, or social media interactions."
+      },
+      "social": {
+        "title": "Social Media Data",
+        "text": "If you connect via social login (where offered), we may access your public profile info per your platform settings."
+      }
+    },
+    "use": {
+      "title": "How We Use Your Personal Information",
+      "list": {
+        "1": "To fulfill your orders and deliver custom embroidery products.",
+        "2": "To communicate about your order status, shipping, and support.",
+        "3": "To operate and improve our Website and services.",
+        "4": "To respond to your inquiries and provide customer service.",
+        "5": "To send transactional emails (e.g., confirmations, invoices).",
+        "6": "To share updates about new collections, events, or collaborations (with your consent).",
+        "7": "To process payments securely through trusted partners.",
+        "8": "To personalize your experience on our Website.",
+        "9": "To notify you of changes to our services or policies.",
+        "10": "To display relevant ads based on your interests (via Meta, Google, etc.).",
+        "11": "To analyze trends and improve marketing effectiveness.",
+        "12": "As described at the time you provide the information.",
+        "13": "For any other purpose with your explicit consent."
+      },
+      "candidates": {
+        "title": "For Job Applicants:",
+        "1": "To evaluate your qualifications and fit for roles at Line Embroidery.",
+        "2": "To comply with legal obligations (e.g., right-to-work checks).",
+        "3": "To protect against fraud or security threats.",
+        "4": "To respond to legal requests or defend our rights.",
+        "5": "In emergencies, to protect the safety of our team or customers."
+      }
+    },
+    "legalBasis": {
+      "title": "Legal Basis for Processing",
+      "consent": "Your explicit consent (e.g., for marketing emails).",
+      "contract": "Necessary to perform a contract with you (e.g., fulfilling an order).",
+      "legal": "To comply with legal obligations (e.g., tax laws).",
+      "legitimate": "Our legitimate interests (e.g., fraud prevention, service improvement, direct marketing).",
+      "obligation": "In some cases, we cannot provide our services without certain data. If so, we’ll inform you."
+    },
+    "sharing": {
+      "title": "Who Has Access to Your Data?",
+      "list": {
+        "1": "Our internal team (only as needed to serve you).",
+        "2": "Trusted service providers (e.g., shipping carriers, payment processors, IT support).",
+        "3": "Affiliated companies within our corporate group.",
+        "4": "In a merger, acquisition, or sale of assets, your data may be transferred as a business asset."
+      },
+      "consent": "We may share data with third parties for their marketing only with your permission. Aggregated or anonymized data may be shared publicly."
+    },
+    "retention": {
+      "title": "How Long We Keep Your Data",
+      "text": "We retain your personal data only as long as necessary for the purposes outlined in this Policy, to comply with legal obligations, resolve disputes, or enforce agreements. If processing is based on consent, we delete data when you withdraw consent."
+    },
+    "thirdParties": {
+      "title": "Third-Party Processors",
+      "intro": "We work with trusted partners to deliver our services:",
+      "list": {
+        "payment": "Payment processors (e.g., Stripe, PayPal).",
+        "shipping": "Carriers like DHL, UPS, or local postal services.",
+        "hosting": "Cloud and website hosting providers (e.g., Vercel, AWS).",
+        "marketing": "Digital marketing tools (e.g., Meta, Google Ads, Mailchimp).",
+        "recruitment": "Job platforms (e.g., LinkedIn, Greenhouse).",
+        "fraud": "Fraud detection and verification services.",
+        "services": "Invoicing, tax, and address validation tools.",
+        "authorities": "Government or regulatory bodies when legally required.",
+        "advisors": "Legal, financial, or audit professionals.",
+        "legal": "Any party required by law."
+      },
+      "controls": "All third parties are contractually obligated to protect your data and use it only as instructed.",
+      "international": "Some data may be transferred outside the EEA. We ensure adequate safeguards (e.g., Standard Contractual Clauses) are in place.",
+      "links": "Our Website may link to third-party sites. We are not responsible for their privacy practices."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "intro": "We use cookies to enhance your experience:",
+      "types": {
+        "essential": {
+          "title": "Essential Cookies",
+          "text": "Required for basic site functionality (e.g., shopping cart, secure login)."
+        },
+        "functional": {
+          "title": "Functional Cookies",
+          "text": "Remember preferences (e.g., language, region) to personalize your visit."
+        },
+        "analytics": {
+          "title": "Analytics Cookies",
+          "text": "Help us understand site usage (via Google Analytics) to improve performance and content."
+        }
+      },
+      "thirdParty": "Third-party cookies (e.g., from Meta or Google) may be used for advertising. Please review their privacy policies for details."
+    },
+    "security": {
+      "title": "How Is My Data Secured?",
+      "measures": "We implement technical and organizational measures (encryption, access controls, secure servers) to protect your data against unauthorized access, loss, or misuse.",
+      "user": "You are responsible for keeping your account password confidential. Never share it with anyone."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "exercise": "You have the right to access, correct, delete, restrict, or port your data, and to object to processing. You may withdraw consent at any time.",
+      "contact": "To exercise your rights, email us at privacy@lineembroidery.com.",
+      "response": "We’ll respond within one month (extendable by two months for complex requests).",
+      "complaint": "If you believe we’ve mishandled your data, you may lodge a complaint with your local data protection authority."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "text": "We may update this Policy periodically. Significant changes will be posted on our Website and/or emailed to you. Last updated: November 2024."
+    }
+  }
+}
+
