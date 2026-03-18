@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import ProductCard from "../../../components/ProductCard";
 import { PRODUCTS } from "../../../data/products";
 import { useLocale } from "next-intl";
+import LogoGeneratorPopup from "../../../ui/LogoGeneratorPopup";
 
 export default function ProductsPage() {
   const pathname = usePathname();
@@ -61,6 +62,8 @@ export default function ProductsPage() {
   ];
 
   return (
+
+    <>
     <div className="py-6 w-full flex flex-col items-center justify-center mt-12">
 
     
@@ -127,5 +130,10 @@ export default function ProductsPage() {
         </div>
       )}
     </div>
+    
+    
+    <LogoGeneratorPopup />
+
+    </>
   );
 }

@@ -6,10 +6,19 @@
     "products": "Products",
     "about": "About Us",
     "all_products":"Products"
+
   },
 
 
+  "logoPopup": {
+    "title": "Create Your Custom Logo",
+    "description": "Transform your ideas into professional logos with our AI. Describe your vision and our artificial intelligence will create unique designs for you!",
+    "feature": "Instant AI generation",
+    "cta": "Generate My Logo"
+  },
+
  "generate": {
+  "header":"Generate Logo",
   "logo": "Generate your logo with AI",
 "title": "Logo Designer",
   "initial": "Creating the perfect logo in a single conversation with AI involves a step-by-step approach. Here's a streamlined process:\n\n1. Define Your Vision: Start by providing key details about what you envision for your logo. Include elements like colors, shapes, themes, and any specific imagery you want.\n\n2. Brand Personality: Describe your brand's personality and values. Is it modern and sleek, playful and fun, or perhaps vintage and classic? This helps in setting the right tone for your logo.\n\n3. Examples for Inspiration: Share examples of logos you admire or styles you prefer. This gives context to your preferences.\n\n4. Function and Applications: Specify how you plan to use the logo (e.g., online, print, merchandise). This can influence design choices regarding complexity and adaptability.\n\n5. Feedback and Adjustments: Be prepared to provide feedback on initial concepts generated. Highlight what you like or dislike to refine the design.\n\n6. Finalization: Once you have a design you love, request any final tweaks, such as color adjustments or font changes.\n\nBy articulating your vision clearly and being open to iterations, you can effectively collaborate with AI to create a compelling logo. Ready to start? Let me know what you have in mind!",

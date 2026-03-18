@@ -35,9 +35,14 @@ async function removeGreenBackground(imageSrc: string): Promise<string> {
   });
 }
 
-export default function FloatingLogoAI() {
+interface FloatingLogoAIProps {
+  isOpen?: boolean;
+  onClose?: () => void;
+}
+
+export default function FloatingLogoAI({ isOpen: externalOpen, onClose: externalOnClose }: FloatingLogoAIProps = {}) {
   const t = useTranslations();
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(externalOpen || false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -45,34 +50,21 @@ export default function FloatingLogoAI() {
   const [promptCount, setPromptCount] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [lastImagePrompt, setLastImagePrompt] = useState<string | null>(null);
-  const [showTooltip, setShowTooltip] = useState(false);
-  const [isHovered, setIsHovered] = useState(false);
-  const tooltipTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const chatRef = useRef<HTMLDivElement>(null);
 
-  // Tooltip: show every 5s when closed, or on hover
+  // Handle external control
   useEffect(() => {
-    if (open) {
-      setShowTooltip(false);
-      if (tooltipTimerRef.current) clearInterval(tooltipTimerRef.current);
-      return;
+    if (externalOpen !== undefined) {
+      setOpen(externalOpen);
     }
+  }, [externalOpen]);
 
-    const initial = setTimeout(() => {
-      setShowTooltip(true);
-      setTimeout(() => setShowTooltip(false), 3000);
-
-      tooltipTimerRef.current = setInterval(() => {
-        setShowTooltip(true);
-        setTimeout(() => setShowTooltip(false), 13000);
-      }, 20000);
-    }, 2000);
-
-    return () => {
-      clearTimeout(initial);
-      if (tooltipTimerRef.current) clearInterval(tooltipTimerRef.current);
-    };
-  }, [open]);
+  const handleClose = () => {
+    setOpen(false);
+    if (externalOnClose) {
+      externalOnClose();
+    }
+  };
 
   // Lock body scroll when modal is open
   useEffect(() => {
@@ -170,37 +162,6 @@ export default function FloatingLogoAI() {
 
   return (
     <>
-      {/* FAB + Tooltip */}
-      <div className="fixed bottom-6 right-4 z-50 flex items-center gap-2">
-        <AnimatePresence>
-          {(showTooltip || isHovered) && !open && (
-            <motion.div
-              initial={{ opacity: 0, x: 8, scale: 0.95 }}
-              animate={{ opacity: 1, x: 0, scale: 1 }}
-              exit={{ opacity: 0, x: 8, scale: 0.95 }}
-              transition={{ duration: 0.18 }}
-              className=" max-w-[180px] absolute bottom-14 right-4 flex items-center gap-1.5 bg-black text-white text-xs font-[HandoRegular] px-3 py-2 rounded-full shadow-lg whitespace-nowrap pointer-events-none"
-            >
-              
-              {t("generate.logo")}
-              <Sparkles size={11} />
-              
-              
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <motion.button
-          onClick={() => { setOpen(true); setShowTooltip(false); }}
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-          whileTap={{ scale: 0.9 }}
-          className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-xs border-[black]/40 border shadow-xl flex items-center justify-center"
-        >
-          <img src="/favicon/favicon.png" alt="logo-ai" className="w-6 h-6" />
-        </motion.button>
-      </div>
-
       {/* MODAL */}
       <AnimatePresence>
         {open && (
@@ -223,7 +184,7 @@ export default function FloatingLogoAI() {
                   <img src="/favicon/favicon.png" className="w-6 h-6" />
                   <h3 className="font-[HandoBold] text-lg">{t("generate.title")}</h3>
                 </div>
-                <button onClick={() => setOpen(false)}>
+                <button onClick={handleClose}>
                   <X size={20} />
                 </button>
               </div>

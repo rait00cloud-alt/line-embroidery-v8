@@ -1,4 +1,11 @@
 {
+  "logoPopup": {
+    "title": "Créez Votre Logo Personnalisé",
+    "description": "Transformez vos idées en logos professionnels avec notre IA. Décrivez votre vision et notre intelligence artificielle créera des designs uniques pour vous !",
+    "feature": "Génération instantanée avec IA",
+    "cta": "Générer Mon Logo"
+  },
+
   "menu": {
     "home": "Accueil",
     "enterprise": "Entreprise",

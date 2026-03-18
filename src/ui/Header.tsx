@@ -4,10 +4,11 @@ import React, { useState, useEffect } from "react";
 import clsx from "clsx";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { ShoppingCart, User } from "lucide-react";
+import { ShoppingCart, User, Sparkles } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
-import { supabase } from "@/components/lib/supabase"; 
+import { supabase } from "@/components/lib/supabase";
+import FloatingLogoAI from "@/ui/FloatingLogoAI"; 
 
 const MENU_ITEMS = [
   { key: "all_products", path: "/products" },
@@ -46,6 +47,7 @@ const HeaderComponent: React.FC = () => {
   const [currentLanguage, setCurrentLanguage] = useState("EN");
   const [user, setUser] = useState<any>(null);
   const [cartItemCount, setCartItemCount] = useState(0);
+  const [logoAIOpen, setLogoAIOpen] = useState(false);
 
   // Check if user is logged in using Supabase
   useEffect(() => {
@@ -182,9 +184,9 @@ const HeaderComponent: React.FC = () => {
           ].includes(pathname) && "hidden"
         )}
       >
-        <nav className="w-full mx-auto flex justify-between items-center px-8 sm:px-32 py-4 relative">
-          {/* Left / Mobile Menu Button */}
-          <div className="flex items-center md:flex">
+        <nav className="w-full mx-auto flex justify-between items-center px-6 sm:px-32 py-4 relative">
+          {/* Left side - Menu + Language + Logo AI */}
+          <div className="flex items-center gap-2">
             <button
               onClick={toggleMenu}
               className="relative w-8 h-8 flex items-center justify-center"
@@ -201,23 +203,30 @@ const HeaderComponent: React.FC = () => {
               />
             </button>
 
-            <div className="flex flex-row w-full justify-center items-center gap-2 ml-2">
-              <button
-                onClick={toggleLanguageMenu}
-                className="text-black uppercase text-xs font-[HandoBold] border-white py-1 transition hover:bg-white hover:text-black"
-              >
-                {currentLanguage}
-              </button>
-            </div>
+            <button
+              onClick={toggleLanguageMenu}
+              className="text-black uppercase text-xs font-[HandoBold] border-white py-1 transition hover:bg-white hover:text-black"
+            >
+              {currentLanguage}
+            </button>
+            
+            <button
+              onClick={() => setLogoAIOpen(true)}
+              className="flex items-center justify-center px-1 bg-[#f3f3f3] py-1 rounded-md text-[10px] font-[HandoBold] text-black hover:bg-gray-200 transition"
+            >
+              <img src='/gif/logo-gen-gif.gif' className="max-w-5"/>
+              <span>{t("generate.header")}</span>
+             
+            </button>
           </div>
 
           {/* Center Logo */}
-          <Link href="/" className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-2 font-bold text-2xl">
-            <img src="/logo/line-embroidery-logo.png" alt="Line Embroidery Logo" className="max-w-20" />
+          <Link href="/" className=" -translate-x-7 relative transform flex items-center gap-2 font-bold text-2xl">
+            <img src="/logo/line-embroidery-logo.png" alt="Line Embroidery Logo" className="max-w-18" />
           </Link>
 
-          {/* Right actions */}
-          <div className="flex items-center gap-4 ml-auto">
+          {/* Right side - Cart + User/Login */}
+          <div className="flex items-center gap-4">
             <Link href='/cart' className="relative">
               <ShoppingCart size={24} />
               {cartItemCount > 0 && (
@@ -361,6 +370,12 @@ const HeaderComponent: React.FC = () => {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Logo AI Modal */}
+      <FloatingLogoAI 
+        isOpen={logoAIOpen} 
+        onClose={() => setLogoAIOpen(false)} 
+      />
     </>
   );
 };
