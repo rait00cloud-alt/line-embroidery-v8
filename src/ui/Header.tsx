@@ -212,16 +212,18 @@ const HeaderComponent: React.FC = () => {
             
             <button
               onClick={() => setLogoAIOpen(true)}
-              className="flex items-center justify-center px-1 bg-[#f3f3f3] py-1 rounded-md text-[10px] font-[HandoBold] text-black hover:bg-gray-200 transition"
+              className="flex items-center justify-center text-center px-1 bg-[#f3f3f3] py-1 rounded-md text-[10px] font-[HandoBold] text-black hover:bg-gray-200 transition"
             >
-              <img src='/gif/logo-gen-gif.gif' className="max-w-5"/>
+             
+              <img src='/gif/logo-gen-gif.gif' className="max-w-4"/>
               <span>{t("generate.header")}</span>
+
              
             </button>
           </div>
 
           {/* Center Logo */}
-          <Link href="/" className=" -translate-x-7 relative transform flex items-center gap-2 font-bold text-2xl">
+          <Link href="/" className=" -translate-x-6 relative transform flex items-center gap-2 font-bold text-2xl">
             <img src="/logo/line-embroidery-logo.png" alt="Line Embroidery Logo" className="max-w-18" />
           </Link>
 
