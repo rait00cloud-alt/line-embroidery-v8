@@ -3,29 +3,36 @@ import sharp from "sharp";
 
 const HF_TOKEN = process.env.HF_TOKEN!;
 
-const SYSTEM_PROMPT = `You are the logo designer at Line Embroidery. Generate logos directly based on user instructions.
+const SYSTEM_PROMPT = `You are a logo generator. Generate logos exactly as the user requests.
 
-IMPORTANT: Always respond in the same language the user is using. If they write in Spanish, respond in Spanish. If they write in Portuguese, respond in Portuguese, etc.
+CRITICAL: ALWAYS respond in the EXACT same language the user is using. If they write in Portuguese, respond in Portuguese. If they write in Spanish, respond in Spanish. If they write in English, respond in English.
 
 Behavior:
-- If user describes a logo, ask ONLY: "Do you want this as a vectorized logo or embroidered logo?" (translate this question to user's language)
-- ONLY generate if they choose vectorized logo
-- If they choose embroidered logo, say: "For embroidered logos, please use our design tools to upload your image" (translate to user's language)
-- No greetings, no suggestions, no multiple options
-- Keep all responses extremely short
-- Don't worry about colors - generate with any colors that work
+- If user describes a logo, ask ONLY: "Do you want this as a normal logo or embroidered logo?" BUT translate this question to match the user's language:
+  * Portuguese: "Você quer isso como uma logo normal ou logo bordada?"
+  * Spanish: "¿Quieres esto como un logo normal o logo bordado?"
+  * English: "Do you want this as a normal logo or embroidered logo?"
+- ONLY generate if they choose normal logo
+- If they choose embroidered logo, say in their language:
+  * Portuguese: "Para logos bordadas, use nossas ferramentas de design para enviar sua imagem"
+  * Spanish: "Para logos bordados, usa nuestras herramientas de diseño para subir tu imagen"
+  * English: "For embroidered logos, please use our design tools to upload your image"
+- Follow user's exact specifications
+- Make a brief comment about the logo in the user's language BEFORE generating
 
-When ready to generate (ONLY for vectorized logos), end with:
+When ready to generate (ONLY for normal logos), end with:
 GENERATE:{"imagePrompt":"..."}
 
-VECTORIZED LOGO FORMAT (only format to use):
-"professional logo design, [icon] with clean lines, [user requested colors or vibrant colors if not specified], [font] letters [BRAND], [style] composition, white background, vector illustration, modern and clean"
+LOGO FORMAT:
+"professional logo design, [exactly what user described], [user requested colors or vibrant colors], solid filled design, white background, vector illustration, modern logo"
 
 Always:
-- Brand text plain letters only — no apostrophes, no special characters
-- Use any colors that work well for the design
-- Match the user's language in your responses
-- Only generate vectorized logos, never embroidered ones`;
+- Create exactly what the user asks for
+- Use exact colors user specifies
+- MATCH THE USER'S LANGUAGE in ALL your responses
+- Only generate normal logos, never embroidered ones
+- Let user refine through multiple iterations
+- Put your comment BEFORE the GENERATE command, never after`;
 
 async function chatWithGroq(messages: { role: string; content: string }[]) {
   const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
@@ -130,25 +137,38 @@ async function generateImage(prompt: string): Promise<string> {
 export async function POST(req: NextRequest) {
   try {
     const { messages, lastImagePrompt } = await req.json();
+    console.log("[logo-ai] Input messages:", messages);
     const assistantText = await chatWithGroq(messages);
+    console.log("[logo-ai] Raw assistant response:", assistantText);
 
     const cleanedText = assistantText.replace(/<think>[\s\S]*?<\/think>/g, "").trim();
+    console.log("[logo-ai] Cleaned text:", cleanedText);
 
     const generateIndex = cleanedText.indexOf("GENERATE:");
+    console.log("[logo-ai] Generate index:", generateIndex);
+    
     if (generateIndex !== -1) {
       const jsonStr = cleanedText.slice(generateIndex + "GENERATE:".length).trim();
       const replyText = cleanedText.slice(0, generateIndex).trim();
+      console.log("[logo-ai] JSON string:", jsonStr);
+      console.log("[logo-ai] Reply text:", replyText);
 
       try {
-        // Normalize smart/curly quotes Groq sometimes outputs
-        const normalizedJson = jsonStr
+        // Decode HTML entities and normalize quotes
+        const decodedJson = jsonStr
+          .replace(/&quot;/g, '"')
+          .replace(/&amp;/g, '&')
+          .replace(/&lt;/g, '<')
+          .replace(/&gt;/g, '>')
           .replace(/[\u201C\u201D]/g, '"') // " "
           .replace(/[\u2018\u2019]/g, "'"); // ' '
-        const parsed = JSON.parse(normalizedJson);
+        console.log("[logo-ai] Decoded JSON:", decodedJson);
+        const parsed = JSON.parse(decodedJson);
+        console.log("[logo-ai] Parsed JSON:", parsed);
         const image = await generateImage(parsed.imagePrompt);
         return NextResponse.json({ reply: replyText, image, imagePrompt: parsed.imagePrompt });
       } catch (parseErr) {
-        console.error("[logo-ai] JSON parse failed:", jsonStr);
+        console.error("[logo-ai] JSON parse failed:", jsonStr, parseErr);
         return NextResponse.json({ reply: replyText });
       }
     }

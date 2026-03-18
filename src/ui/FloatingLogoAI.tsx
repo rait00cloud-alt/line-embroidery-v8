@@ -288,7 +288,7 @@ function ChatBubble({ message }: { message: Message }) {
         </div>
         {!isUser && (
           <img src="/favicon/favicon.png" className="w-4 h-4 ml-1 self-end opacity-60" />
-        )}
+        )} 
       </div>
 
       {message.image && (

@@ -1,4 +1,14 @@
 {
+  "generate": {
+    "logo": "Gere sua logo com IA",
+    "title": "Designer de Logo",
+    "initial": "Descreva sua logo e eu vou criá-la para você!",
+    "generated": "Aqui está sua logo! Me diga se quer algum ajuste.",
+    "placeholder": "Digite sua resposta…",
+    "send": "Enviar",
+    "remaining": "gerações restantes",
+    "generate": "Gere sua logo com IA"
+  },
   "menu": {
     "home": "Início",
     "enterprise": "Serviços",
