@@ -2,9 +2,9 @@
 
 import React from "react";
 import Link from "next/link";
-import type { Product } from "../types/product";
+import type { Product } from "../../types/product";
 import { motion } from "framer-motion";
-import { getColorHex } from "../utils/colorMapping";
+import { getColorHex } from "../../utils/colorMapping";
 import { useTranslations } from "next-intl";
 import { useCurrency } from "@/components/providers/CurrencyProvider";
 

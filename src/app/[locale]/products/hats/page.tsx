@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 import FiltersBar from "../../../../components/Products/FiltersBar";
-import ProductCard from "../../../../components/ProductCard";
+import ProductCard from "../../../../components/Common/ProductCard";
 import { PRODUCTS } from "../../../../data/products";
 import { useLocale } from "next-intl";
 import { Variants, Easing } from "framer-motion";

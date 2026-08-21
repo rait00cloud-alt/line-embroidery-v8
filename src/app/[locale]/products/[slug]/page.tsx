@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { Globe, Check } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
-import ProductViewer from "@/components/ProductViewer";
+import ProductViewer from "@/components/Common/ProductViewer";
 import { PRODUCTS } from "@/data/products";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";

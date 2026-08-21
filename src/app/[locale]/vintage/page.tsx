@@ -1,37 +1,37 @@
-  "use client";
+"use client";
 
-  import { useState } from "react";
-  import { motion, easeOut } from "framer-motion";
-  import { useTranslations } from "next-intl";
-  import Link from "next/link";
-  import FiltersBar from "../../../components/Products/FiltersBar";
-  import ProductCardNon3D from "../../../components/Products/ProductCardNon3D"; 
-  import { NON_CUSTOM_PRODUCTS } from "../../../data/nonCustomProducts";
-  import { usePathname } from "next/navigation";
-  import { useLocale } from "next-intl";
-  import { useCurrency } from "@/components/providers/CurrencyProvider";
+import { useState } from "react";
+import { motion, easeOut } from "framer-motion";
+import { useTranslations } from "next-intl";
+import Link from "next/link";
+import FiltersBar from "../../../components/Products/FiltersBar";
+import ProductCardNon3D from "../../../components/Products/ProductCardNon3D";
+import { NON_CUSTOM_PRODUCTS } from "../../../data/nonCustomProducts";
+import { usePathname } from "next/navigation";
+import { useLocale } from "next-intl";
+import { useCurrency } from "@/components/providers/CurrencyProvider";
 
 
-  export default function VintagePage() {
-    const tVintage = useTranslations("vintage"); // vintage texts
-    const tProducts = useTranslations("products"); // navigation texts
-    const [filters, setFilters] = useState<Record<string, string[]>>({});
-const { currency, format } = useCurrency();
+export default function VintagePage() {
+  const tVintage = useTranslations("vintage"); // vintage texts
+  const tProducts = useTranslations("products"); // navigation texts
+  const [filters, setFilters] = useState<Record<string, string[]>>({});
+  const { currency, format } = useCurrency();
 
   const filteredProducts = NON_CUSTOM_PRODUCTS.filter((product) => {
     return Object.entries(filters).every(([filterKey, filterValues]) => {
       if (!filterValues || filterValues.length === 0) return true;
 
       switch (filterKey) {
-      case "type":
-  const typeMapping: Record<string, string> = {
-    "Line Embroidery": "line",
-    "Blanks": "blank",
-  };
+        case "type":
+          const typeMapping: Record<string, string> = {
+            "Line Embroidery": "line",
+            "Blanks": "blank",
+          };
 
-  return filterValues.some(
-    (value) => typeMapping[value] === product.modelKey
-  );
+          return filterValues.some(
+            (value) => typeMapping[value] === product.modelKey
+          );
 
 
         case "size":
@@ -67,38 +67,38 @@ const { currency, format } = useCurrency();
   const locale = useLocale();
 
   const pathname = usePathname();
-    const navLinks = [
-      { href: "/", label: tProducts("nav.all") },
-      { href: "/products/hats", label: tProducts("nav.custom") },
-      { href: "/vintage", label: tProducts("nav.vintage") },
-      { href: "/about", label: tProducts("nav.about") },
-      { href: "/enterprise", label: tProducts("nav.services") },
-    ];
+  const navLinks = [
+    { href: "/", label: tProducts("nav.all") },
+    { href: "/products/hats", label: tProducts("nav.custom") },
+    { href: "/vintage", label: tProducts("nav.vintage") },
+    { href: "/about", label: tProducts("nav.about") },
+    { href: "/enterprise", label: tProducts("nav.services") },
+  ];
 
-   const fadeUp = {
-  hidden: { opacity: 0, y: 20 },
-  show: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: i * 0.15,
-      duration: 0.5,
-      ease: easeOut,
-    },
-  }),
-};
+  const fadeUp = {
+    hidden: { opacity: 0, y: 20 },
+    show: (i: number) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.15,
+        duration: 0.5,
+        ease: easeOut,
+      },
+    }),
+  };
 
-    return (
-      <div className="py-6 w-full flex flex-col items-center justify-center overflow-hidden mt-16">
+  return (
+    <div className="py-6 w-full flex flex-col items-center justify-center overflow-hidden mt-16">
 
-        {/* Navigation */}
-            <nav
-  className={`
-    flex gap-4 px-4 py-2 mb-10 border-b border-black/20 w-full 
+      {/* Navigation */}
+      <nav
+        className={`
+    flex gap-4 px-4 py-2 mb-10 border-b border-black/20 w-full
     overflow-x-auto whitespace-nowrap scrollbar-hide
     ${locale === "pt" ? "justify-start" : "justify-center"}
   `}
->
+      >
         {/* All */}
         <motion.div custom={0} initial="hidden" animate="show" variants={fadeUp}>
           <Link
@@ -133,7 +133,7 @@ const { currency, format } = useCurrency();
           </Link>
         </motion.div>
 
-      
+
         {/* Services */}
         <motion.div custom={4} initial="hidden" animate="show" variants={fadeUp}>
           <Link
@@ -158,77 +158,77 @@ const { currency, format } = useCurrency();
         </motion.div>
 
       </nav>
-        {/* Title */}
+      {/* Title */}
+      <motion.div
+        initial="hidden"
+        animate="show"
+        variants={{ hidden: {}, show: { transition: { staggerChildren: 0.2 } } }}
+        className="text-center mb-8"
+      >
+        <motion.h1 variants={fadeUp} custom={0} className="text-3xl font-[HandoBold]">
+          {tVintage("page_title")}
+        </motion.h1>
+        <motion.p variants={fadeUp} custom={1} className="text-gray-500 mt-2 font-[HandoRegular]">
+          {tVintage("page_subtitle")}
+        </motion.p>
+      </motion.div>
+
+      <div className="w-full flex flex-row gap-8 justify-center item-center">
+        {/* Line Embroidery card */}
         <motion.div
-          initial="hidden"
-          animate="show"
-          variants={{ hidden: {}, show: { transition: { staggerChildren: 0.2 } } }}
-          className="text-center mb-8"
+          onClick={() => setFilters({ type: ["Line Embroidery"] })}
+          className="cursor-pointer flex flex-col bg-[#f5f5f5]/40 shadow-xl justify-center items-center max-w-max rounded-xl border-1 border-black/80 p-2 mb-10"
         >
-          <motion.h1 variants={fadeUp} custom={0} className="text-3xl font-[HandoBold]">
-            {tVintage("page_title")}
-          </motion.h1>
-          <motion.p variants={fadeUp} custom={1} className="text-gray-500 mt-2 font-[HandoRegular]">
-            {tVintage("page_subtitle")}
+          <motion.img
+            src="/images/hat.png"
+            className="max-w-[124px] sm:max-w-[232px]"
+            variants={fadeUp}
+            custom={0}
+          />
+          <motion.p variants={fadeUp} custom={1} className="text-gray-500 font-[HandoRegular] tracking-tight">
+            {tVintage("nav.line_embroidery")}
           </motion.p>
         </motion.div>
 
-            <div className="w-full flex flex-row gap-8 justify-center item-center">
-       {/* Line Embroidery card */}
-<motion.div
-  onClick={() => setFilters({ type: ["Line Embroidery"] })}
-  className="cursor-pointer flex flex-col bg-[#f5f5f5]/40 shadow-xl justify-center items-center max-w-max rounded-xl border-1 border-black/80 p-2 mb-10"
->
-  <motion.img
-    src="/images/hat.png"
-    className="max-w-[124px] sm:max-w-[232px]"
-    variants={fadeUp}
-    custom={0}
-  />
-  <motion.p variants={fadeUp} custom={1} className="text-gray-500 font-[HandoRegular] tracking-tight">
-    {tVintage("nav.line_embroidery")}
-  </motion.p>
-</motion.div>
 
-
-{/* Blank card
-<motion.div
-  onClick={() => setFilters({ type: ["Blank"] })}
-  className="cursor-pointer flex flex-col bg-[#f5f5f5]/40 shadow-xl justify-center items-center max-w-max rounded-xl border-1 border-black/80 p-2 mb-10"
->
-  <motion.img
-    src="/photos/blanks/shirt.png"
-    className="invert max-w-[124px] sm:max-w-[232px]"
-    variants={fadeUp}
-    custom={0}
-  />
-  <motion.p variants={fadeUp} custom={1} className="text-gray-500 font-[HandoRegular] tracking-tight">
-    {tVintage("nav.blanks")}
-  </motion.p>
-</motion.div> */}
-
-        </div>
-
-       <FiltersBar 
-  onFilterChange={setFilters} 
-  variant="vintage"
-  productCount={filteredProducts.length} 
-  products={NON_CUSTOM_PRODUCTS}
-/>
-
-        {/* Product Grid */}
+        {/* Blank card
         <motion.div
-          initial="hidden"
-          animate="show"
-          variants={{ hidden: {}, show: { transition: { staggerChildren: 0.15 } } }}
-          className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 pt-4"
+          onClick={() => setFilters({ type: ["Blank"] })}
+          className="cursor-pointer flex flex-col bg-[#f5f5f5]/40 shadow-xl justify-center items-center max-w-max rounded-xl border-1 border-black/80 p-2 mb-10"
         >
-          {filteredProducts.map((product, i) => (
-            <motion.div key={product.slug} variants={fadeUp} custom={i}>
-              <ProductCardNon3D product={product} />
-            </motion.div>
-          ))}
-        </motion.div>
+          <motion.img
+            src="/photos/blanks/shirt.png"
+            className="invert max-w-[124px] sm:max-w-[232px]"
+            variants={fadeUp}
+            custom={0}
+          />
+          <motion.p variants={fadeUp} custom={1} className="text-gray-500 font-[HandoRegular] tracking-tight">
+            {tVintage("nav.blanks")}
+          </motion.p>
+        </motion.div> */}
+
       </div>
-    );
-  }
+
+      <FiltersBar
+        onFilterChange={setFilters}
+        variant="vintage"
+        productCount={filteredProducts.length}
+        products={NON_CUSTOM_PRODUCTS}
+      />
+
+      {/* Product Grid */}
+      <motion.div
+        initial="hidden"
+        animate="show"
+        variants={{ hidden: {}, show: { transition: { staggerChildren: 0.15 } } }}
+        className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 pt-4"
+      >
+        {filteredProducts.map((product, i) => (
+          <motion.div key={product.slug} variants={fadeUp} custom={i}>
+            <ProductCardNon3D product={product} />
+          </motion.div>
+        ))}
+      </motion.div>
+    </div>
+  );
+}

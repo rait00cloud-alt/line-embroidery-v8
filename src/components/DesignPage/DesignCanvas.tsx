@@ -8,7 +8,7 @@ import { Canvas, useThree } from "@react-three/fiber";
 import { Float, Environment } from "@react-three/drei";
 import * as THREE from "three";
 
-import CustomOrbitControls from "@/components/CustomOrbitControls";
+import CustomOrbitControls from "@/components/Common/CustomOrbitControls";
 import { RotatingGroup } from "@/components/Design/RotatingGroup";
 import { FivePanelHat } from "@/components/Models/Five-panel";
 import { SnapbackHat } from "@/components/Models/Snapback";

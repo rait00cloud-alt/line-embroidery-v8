@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
-import ProductCard from "../../../components/ProductCard";
+import ProductCard from "../../../components/Common/ProductCard";
 import { PRODUCTS } from "../../../data/products";
 import { useLocale } from "next-intl";
 import LogoGeneratorPopup from "../../../ui/LogoGeneratorPopup";

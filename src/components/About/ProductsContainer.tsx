@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useState } from "react";
-import ProductCard from "../ProductCard";
+import ProductCard from "../Common/ProductCard";
 import { PRODUCTS } from "../../data/products";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
